@@ -11,12 +11,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Oliver Sykes'</initValue>
+      <initValue>'id.sequre.pro'</initValue>
+      <name>apkName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bernardus Angelio'</initValue>
       <name>fullName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'oliver.katalon@yopmail.com'</initValue>
+      <initValue>'katalon.bernard@yopmail.com'</initValue>
       <name>emailAddress</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -33,6 +38,16 @@
       <description></description>
       <initValue>'Qtrust123?'</initValue>
       <name>confirmPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Angelio Bernardus'</initValue>
+      <name>newFullname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'bernard.katalon@yopmail.com'</initValue>
+      <name>newEmailaddresss</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

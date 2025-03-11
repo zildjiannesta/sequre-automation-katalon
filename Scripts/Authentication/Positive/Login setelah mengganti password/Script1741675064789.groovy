@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.tap(findTestObject('Object Repository/Authentication/Login/android.widget.TextView - Login'), 0)
-Mobile.setText(findTestObject('Object Repository/Authentication/Login/android.widget.EditText (1)'), GlobalVariable.emailAddress, 
+Mobile.tap(findTestObject('Object Repository/Authentication/Login/android.widget.TextView - Login'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Authentication/Login/android.widget.EditText (1)'), GlobalVariable.newEmailaddresss, 
     0)
 
-Mobile.setText(findTestObject('Object Repository/Authentication/Login/android.widget.EditText'), GlobalVariable.accountPassword, 
+Mobile.setText(findTestObject('Object Repository/Authentication/Login/android.widget.EditText'), GlobalVariable.newAccpassword, 
     0)
 
 Mobile.tap(findTestObject('Object Repository/Authentication/Login/android.widget.TextView - Login (1)'), 0)
 
-Mobile.delay(3)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Authentication/Login/android.view.View - Close Tour Guide'), 0)

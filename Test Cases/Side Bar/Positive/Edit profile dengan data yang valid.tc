@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit profile dengan data yang valid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>930742c1-32f2-476f-bd91-1b0d86fcb2de</testCaseGuid>
+</TestCaseEntity>
