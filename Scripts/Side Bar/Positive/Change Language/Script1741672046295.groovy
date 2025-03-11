@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication( GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.tap(findTestObject('Object Repository/Authentication/Login/android.widget.TextView - Login'), 0)
-Mobile.setText(findTestObject('Object Repository/Authentication/Login/android.widget.EditText (1)'), GlobalVariable.emailAddress, 
-    0)
+Mobile.tap(findTestObject('Object Repository/Side Bar/Language/android.view.View'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Authentication/Login/android.widget.EditText'), GlobalVariable.accountPassword, 
-    0)
+Mobile.tap(findTestObject('Object Repository/Side Bar/Language/android.widget.TextView - Language'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Authentication/Login/android.widget.TextView - Login (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Side Bar/Language/android.widget.TextView - Indonesia'), 0)
 
-Mobile.delay(3)
+Mobile.tap(findTestObject('Object Repository/Side Bar/Language/android.view.View'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Authentication/Login/android.view.View - Close Tour Guide'), 0)
+Mobile.tap(findTestObject('Object Repository/Side Bar/Language/android.widget.TextView - Bahasa'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Side Bar/Language/android.widget.TextView - English'), 0)
+

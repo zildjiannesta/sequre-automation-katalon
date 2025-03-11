@@ -55,5 +55,7 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Authentication/Sign Up/android.widget.TextView - Next'), 0)
 
+Mobile.delay(6)
+
 
 
