@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\zildjian\\OneDrive\\Documents\\QTrust\\Build APK\\sequre_pro_140_101.apk'</initValue>
+      <name>appFile</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Oliver Sykes'</initValue>
+      <name>fullName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'oliver.katalon@yopmail.com'</initValue>
+      <name>emailAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0823456789'</initValue>
+      <name>numberPhone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Qtrust123?'</initValue>
+      <name>accountPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Qtrust123?'</initValue>
+      <name>confirmPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Qtrust123!'</initValue>
+      <name>newAccpassword</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

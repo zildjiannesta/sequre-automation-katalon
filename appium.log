@@ -1,0 +1,73 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.16.2
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m63564[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:63564/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://10.10.5.213:63564/wd/hub
+	http://127.0.0.1:63564/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@3.9.5 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m10 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\zildjian\\OneDrive\\Documents\\QTrust\\Build APK\\sequre_pro_140_101.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi 23021RAA2Y (Android 15)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":63601,"appium:udid":"5f83bdbe","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\zildjian\\OneDrive\\Documents\\QTrust\\Build APK\\sequre_pro_140_101.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi 23021RAA2Y (Android 15)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":63601,"appium:udid":"5f83bdbe"}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\zildjian\.appium\node_modules\appium-uiautomator2-driver
+[38;5;167m[AppiumDriver@8d2c][0m Appium v2.16.2 creating new AndroidUiautomator2Driver (v3.9.5) session
+[38;5;167m[AppiumDriver@8d2c][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;167m[AppiumDriver@8d2c][0m Appium's BaseDriver version is 9.16.2
+[38;5;167m[AppiumDriver@8d2c][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.2
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m Session created with session id: fc1fc0dd-6108-410b-81e0-09b4b2e16a7e
+[38;5;77m[fc1fc0dd][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\zildjian\.katalon\tools\android_sdk' (newest first):
+[38;5;77m[fc1fc0dd][0m[38;5;229m[ADB][0m     C:\Users\zildjian\.katalon\tools\android_sdk\build-tools\29.0.3
+[38;5;77m[fc1fc0dd][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\zildjian\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m Retrieving device list
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m Using device: 5f83bdbe
+[38;5;77m[fc1fc0dd][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\zildjian\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;77m[fc1fc0dd][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\zildjian\OneDrive\Documents\QTrust\Build APK\sequre_pro_140_101.apk'
+[38;5;77m[fc1fc0dd][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m Relaxing hidden api policy
+[38;5;77m[fc1fc0dd][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\zildjian\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;77m[fc1fc0dd][0m[38;5;229m[ADB][0m Package name: 'id.sequre.pro'
+[38;5;77m[fc1fc0dd][0m[38;5;229m[ADB][0m Main activity name: 'id.sequre.MainActivity'
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m Server packages are not going to be (re)installed
+[38;5;77m[fc1fc0dd][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;77m[fc1fc0dd][0m[38;5;229m[ADB][0m Using 'apksigner.jar' from 'C:\Users\zildjian\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[38;5;77m[fc1fc0dd][0m[38;5;229m[ADB][0m 'C:\Users\zildjian\OneDrive\Documents\QTrust\Build APK\sequre_pro_140_101.apk' is signed with a non-default certificate
+[38;5;77m[fc1fc0dd][0m[38;5;229m[ADB][0m The application at 'C:\Users\zildjian\OneDrive\Documents\QTrust\Build APK\sequre_pro_140_101.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;77m[fc1fc0dd][0m[38;5;229m[ADB][0m The installation of 'sequre_pro_140_101.apk' took 12790ms
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m Starting UIAutomator2 server 7.1.7
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m Using UIAutomator2 server from 'C:\Users\zildjian\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.1.7.apk' and test from 'C:\Users\zildjian\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m socket hang up
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m socket hang up
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m socket hang up
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m socket hang up
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m socket hang up
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m Determined the downstream protocol as 'W3C'
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m Screen already unlocked, doing nothing
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m Starting 'id.sequre.pro/id.sequre.MainActivity and waiting for 'id.sequre.pro/id.sequre.MainActivity'
+[38;5;77m[fc1fc0dd][0m[38;5;167m[AppiumDriver@8d2c][0m New AndroidUiautomator2Driver session created successfully, session fc1fc0dd-6108-410b-81e0-09b4b2e16a7e added to master session list
+[38;5;77m[fc1fc0dd][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m25523 ms - 1238[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 111[39m [90m[39m
+[38;5;77m[fc1fc0dd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fc1fc0dd-6108-410b-81e0-09b4b2e16a7e/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;77m[fc1fc0dd][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/fc1fc0dd-6108-410b-81e0-09b4b2e16a7e/timeouts [39m[32m200[39m [90m8 ms - 14[39m [90m[39m
+[38;5;77m[fc1fc0dd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/fc1fc0dd-6108-410b-81e0-09b4b2e16a7e/source[39m [90m{}[39m
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m Replacing sessionId 3ba22220-2ee1-4684-a3b2-3855e3abda69 with fc1fc0dd-6108-410b-81e0-09b4b2e16a7e
+[38;5;77m[fc1fc0dd][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/fc1fc0dd-6108-410b-81e0-09b4b2e16a7e/source [39m[32m200[39m [90m509 ms - 4156[39m [90m[39m
+[38;5;77m[fc1fc0dd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/fc1fc0dd-6108-410b-81e0-09b4b2e16a7e/screenshot[39m [90m{}[39m
+[38;5;77m[fc1fc0dd][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/fc1fc0dd-6108-410b-81e0-09b4b2e16a7e/screenshot [39m[32m200[39m [90m774 ms - 328492[39m [90m[39m
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m Shutting down because we waited 1800 seconds for a command
+[38;5;77m[fc1fc0dd][0m[38;5;167m[AppiumDriver@8d2c][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;77m[fc1fc0dd][0m[38;5;167m[AppiumDriver@8d2c][0m Removing session 'fc1fc0dd-6108-410b-81e0-09b4b2e16a7e' from our master session list
+[38;5;77m[fc1fc0dd][0m[38;5;-41m[AndroidUiautomator2Driver@b479][0m Restoring hidden api policy to the device default configuration
+[38;5;77m[fc1fc0dd][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/fc1fc0dd-6108-410b-81e0-09b4b2e16a7e[39m [90m{}[39m
+[38;5;77m[fc1fc0dd][0m[38;5;86m[HTTP][0m [37m<-- DELETE /wd/hub/session/fc1fc0dd-6108-410b-81e0-09b4b2e16a7e [39m[33m404[39m [90m87 ms - 3152[39m [90m[39m
