@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.widget.TextView - Sign Up</name>
+   <name>android.view.View - Scan QR button</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -12,32 +12,24 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.TextView</value>
-      <webElementGuid>bed57ca4-96e6-4f9c-a4a8-d22fe5b9b37c</webElementGuid>
+      <value>android.view.View</value>
+      <webElementGuid>79a70e7d-0a06-45a5-a3bb-1775bb15a15e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>11</value>
-      <webElementGuid>fcb64d4f-77cf-45d9-b311-bd6c8137b45c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Sign Up</value>
-      <webElementGuid>22f15184-f8a6-4b34-b19e-c86a5da879df</webElementGuid>
+      <value>10</value>
+      <webElementGuid>9abeea7b-ebd1-416e-a1bf-799918eb0414</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>signup_button</value>
-      <webElementGuid>e4d99530-a919-4b47-92ef-aed7c5b4eb0c</webElementGuid>
+      <value>home_scan_button</value>
+      <webElementGuid>e0ab9f51-e661-4fe3-91a3-7a5a5d4cc350</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +37,15 @@
       <name>package</name>
       <type>Main</type>
       <value>id.sequre.pro</value>
-      <webElementGuid>bafc656d-51d2-4d17-8de4-b8c0158092e7</webElementGuid>
+      <webElementGuid>74725b4c-6e9b-4f13-b0aa-956931bef89f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>content-desc</name>
       <type>Main</type>
-      <value>signup_button</value>
-      <webElementGuid>371a96cc-27ae-45a5-955b-9f63faa6a7b4</webElementGuid>
+      <value>Button to initiate a scan on the home screen</value>
+      <webElementGuid>9ec517bf-8607-4a9a-a674-77dbccdf056d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a856921c-eef8-4b8f-8c07-25be72d72fe0</webElementGuid>
+      <webElementGuid>f4a4ea4d-9965-4075-a9a6-e670f2136cd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +61,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>2f107dc5-7281-41ca-a89a-49c2af01f5eb</webElementGuid>
+      <webElementGuid>3ab58d6c-8717-4121-b107-0ed13841938e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +69,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a32b7a72-ef41-44b9-bb9d-7eaac10ed0be</webElementGuid>
+      <webElementGuid>b6a0e1f2-6445-4801-bc51-27a5047e9073</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +77,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>182effd5-be51-4832-9b6b-d17a8a637542</webElementGuid>
+      <webElementGuid>a75fcdb7-e0f4-4c00-9d72-f554b1967041</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +85,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d44ebcfc-4339-4110-aee3-6f2c004b9595</webElementGuid>
+      <webElementGuid>d842b65c-6e59-4c4c-a240-66d1a94ad251</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1a40568f-84ca-4e43-89b3-6b9d01c3dde4</webElementGuid>
+      <webElementGuid>bb5585d3-0274-489d-b24f-a6d78be05d97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +101,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>430ac225-2ec9-48b4-8c51-e30b5a2a6ab3</webElementGuid>
+      <webElementGuid>a0f62202-335b-49eb-99ea-18f2d77afcb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +109,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>107c7006-6ffa-496e-be8d-6ffcddcff8dd</webElementGuid>
+      <webElementGuid>770f284c-aa73-40e3-a8df-072c7250d88a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>74237ef9-ed6c-47a8-8ca8-c38c68d8e28d</webElementGuid>
+      <webElementGuid>e2336e4f-4c51-4a0d-8b14-0bf6d7c6bb11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -133,47 +125,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3c663491-28f1-4309-927c-735dd58ea003</webElementGuid>
+      <webElementGuid>bc065bf0-0c5a-44dc-8e66-8b72f0e68e6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>547</value>
-      <webElementGuid>f24ccb7d-ba2e-4357-a361-f6907f9b569c</webElementGuid>
+      <value>816</value>
+      <webElementGuid>37142734-7583-4332-9622-c8e2d2cfe367</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>1962</value>
-      <webElementGuid>35a0ac84-91c0-454e-a80d-7d66476ae2c8</webElementGuid>
+      <value>2152</value>
+      <webElementGuid>988bb5df-3567-45c1-a196-7ae6b982073e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>150</value>
-      <webElementGuid>64728322-940a-4911-a873-9acaf4894783</webElementGuid>
+      <value>220</value>
+      <webElementGuid>3fcad54a-eecc-4148-9914-5edc8005e444</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>132</value>
-      <webElementGuid>8cdb6d50-eca5-4ef8-a7a8-93c39dc75a8e</webElementGuid>
+      <value>220</value>
+      <webElementGuid>3bb36477-8feb-4957-a68d-157daacb2760</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[547,1962][697,2094]</value>
-      <webElementGuid>9fa1cca8-d508-403b-bd55-3dafa0af8d44</webElementGuid>
+      <value>[816,2152][1036,2372]</value>
+      <webElementGuid>0c23762a-9738-436f-a270-9820b81c7e65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -181,29 +173,37 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>cb3feecb-9776-41d9-9d38-cf3ed07a6888</webElementGuid>
+      <webElementGuid>121d92c2-00b4-40c5-aefa-f0dddd9bc70a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>47977290-0e06-4742-8b6a-6f66c0a662b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/f1.l0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.TextView[5]</value>
-      <webElementGuid>af5a6a68-0051-472a-b9fd-457be8b22a7b</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/f1.l0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[5]</value>
+      <webElementGuid>71ae8b5d-59ce-4dcd-bb54-873183a3cf07</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Sign Up' or . = 'Sign Up') and @resource-id = 'signup_button']</locator>
+   <locator>//*[@class = 'android.view.View' and @resource-id = 'home_scan_button' and (@text = '' or . = '')]</locator>
    <locatorCollection>
       <entry>
          <key>ACCESSIBILITY</key>
-         <value>signup_button</value>
+         <value>Button to initiate a scan on the home screen</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
-         <value>android.widget.TextView</value>
+         <value>android.view.View</value>
       </entry>
       <entry>
          <key>ID</key>
-         <value>signup_button</value>
+         <value>home_scan_button</value>
       </entry>
       <entry>
          <key>NAME</key>
@@ -211,7 +211,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/f1.l0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.TextView[5]</value>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/f1.l0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[5]</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
@@ -223,7 +223,7 @@
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.TextView' and (@text = 'Sign Up' or . = 'Sign Up') and @resource-id = 'signup_button']</value>
+         <value>//*[@class = 'android.view.View' and @resource-id = 'home_scan_button' and (@text = '' or . = '')]</value>
       </entry>
       <entry>
          <key>CUSTOM</key>
@@ -239,7 +239,7 @@
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).description(&quot;signup_button&quot;).text(&quot;Sign Up&quot;).resourceId(&quot;signup_button&quot;).packageName(&quot;id.sequre.pro&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(11)</value>
+         <value>new UiSelector().className(&quot;android.view.View&quot;).description(&quot;Button to initiate a scan on the home screen&quot;).resourceId(&quot;home_scan_button&quot;).packageName(&quot;id.sequre.pro&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(10)</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

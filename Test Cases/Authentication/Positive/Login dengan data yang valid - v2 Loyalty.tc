@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login dengan data yang valid - v2 Loyalty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3088178c-9dd3-4dad-bb21-76a52a5cdc96</testCaseGuid>
+</TestCaseEntity>

@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication( GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Side Bar/Logout/android.view.View'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Side Bar/Logout/android.widget.TextView - Logout'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Side Bar/Logout/android.widget.TextView - Log Out'), 0)
+Mobile.tap(findTestObject('null'), 0)
 

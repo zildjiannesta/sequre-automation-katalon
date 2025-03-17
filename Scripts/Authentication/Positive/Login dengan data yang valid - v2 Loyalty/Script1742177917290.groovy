@@ -19,51 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.tap(findTestObject('null'), 
+//Mobile.tap(findTestObject('null'), 0)
+Mobile.setText(findTestObject('Authentication/Login/android.widget.EditText - Email field'), GlobalVariable.emailAddress, 
     0)
 
-Mobile.tap(findTestObject('null'), 
+Mobile.setText(findTestObject('Authentication/Login/android.widget.EditText - Password field'), GlobalVariable.accountPassword, 
     0)
 
-Mobile.setText(findTestObject('null'), 
-    GlobalVariable.accountPassword, 0)
+Mobile.tap(findTestObject('Authentication/Login/android.view.View - Show Password'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.tap(findTestObject('null'), 
-    0)
-
-Mobile.setText(findTestObject('null'), 
-    GlobalVariable.newAccpassword, 0)
-
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.tap(findTestObject('null'), 
-    0)
-
-Mobile.setText(findTestObject('null'), 
-    GlobalVariable.newAccpassword, 0)
-
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Authentication/Login/android.view.View - Show Password'), 0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('null'), 
-    0)
+Mobile.tap(findTestObject('Authentication/Login/android.view.View - Login button'), 0)
 
-Mobile.tap(findTestObject('null'), 
-    0)
+Mobile.delay(3)
 
-Mobile.tap(findTestObject('null'), 
-    0)
-
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Authentication/Login/android.view.View - Randomly click'), 0)
 
