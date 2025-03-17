@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Login dengan data yang valid</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b98cab5b-619f-4b7a-a31d-7afd03ae23b5</testCaseGuid>
-</TestCaseEntity>

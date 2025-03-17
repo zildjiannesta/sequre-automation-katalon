@@ -17,53 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
+Mobile.startApplication(GlobalVariable.appFile, false)
 
-Mobile.tap(findTestObject('null'), 0)
+//Mobile.startExistingApplication('id.sequre.pro')
+Mobile.tap(findTestObject('Home/Guest User/android.view.View - Info tooltip button'), 0)
 
-Mobile.tap(findTestObject('null'), 
-    0)
+Mobile.delay(5)
 
-Mobile.tap(findTestObject('null'), 
-    0)
+Mobile.tap(findTestObject('Home/Guest User/android.view.View - Open sidebar button'), 0)
 
-Mobile.setText(findTestObject('null'), 
-    GlobalVariable.accountPassword, 0)
+Mobile.tap(findTestObject('Home/Guest User/android.widget.TextView - Language'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Home/Guest User/android.widget.TextView - Language'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('null'), 
-    0)
+Mobile.tap(findTestObject('Home/Guest User/android.widget.TextView - Switch Mode'), 0)
 
-Mobile.setText(findTestObject('null'), 
-    GlobalVariable.newAccpassword, 0)
+Mobile.tap(findTestObject('Home/Guest User/android.widget.TextView - Switch Mode'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Home/Guest User/android.view.View - Close taskbar button'), 0)
 
-Mobile.tap(findTestObject('null'), 
-    0)
+Mobile.tap(findTestObject('Home/Guest User/android.view.View - Scan QR button'), 0)
 
-Mobile.setText(findTestObject('null'), 
-    GlobalVariable.newAccpassword, 0)
+Mobile.tap(findTestObject('Scan/Open Camera/android.view.View - Flash button'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Scan/Open Camera/android.view.View - Flash button'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Scan/Open Camera/android.widget.Button - Back button'), 0)
 
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('null'), 
-    0)
-
-Mobile.tap(findTestObject('null'), 
-    0)
-
-Mobile.tap(findTestObject('null'), 
-    0)
-
-Mobile.tap(findTestObject('null'), 0)
+Mobile.delay(5)
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registrasi akun dengan data yang valid - v2 Loyalty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6744b96-7b55-419f-9c72-f42becd49fd6</testCaseGuid>
+</TestCaseEntity>

@@ -19,51 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Side Bar/Change Theme And Language/android.widget.TextView - Language change'), 0)
 
-Mobile.tap(findTestObject('null'), 
-    0)
+Mobile.tap(findTestObject('Side Bar/Change Theme And Language/android.widget.TextView - Language change'), 0)
 
-Mobile.tap(findTestObject('null'), 
-    0)
+Mobile.tap(findTestObject('Side Bar/Change Theme And Language/android.widget.TextView - Switch Mode'), 0)
 
-Mobile.setText(findTestObject('null'), 
-    GlobalVariable.accountPassword, 0)
-
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.tap(findTestObject('null'), 
-    0)
-
-Mobile.setText(findTestObject('null'), 
-    GlobalVariable.newAccpassword, 0)
-
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.tap(findTestObject('null'), 
-    0)
-
-Mobile.setText(findTestObject('null'), 
-    GlobalVariable.newAccpassword, 0)
-
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('null'), 
-    0)
-
-Mobile.tap(findTestObject('null'), 
-    0)
-
-Mobile.tap(findTestObject('null'), 
-    0)
-
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Side Bar/Change Theme And Language/android.widget.TextView - Switch Mode'), 0)
 
