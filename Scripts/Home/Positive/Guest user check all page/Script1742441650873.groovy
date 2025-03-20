@@ -28,7 +28,7 @@ Mobile.tap(findTestObject('Home/Guest User/android.view.View - Open sidebar butt
 
 GlobalVariable.actualVersion = Mobile.getText(findTestObject('Side Bar/android.widget.TextView - Apps version'), 3)
 
-CustomKeywords.'customKeywords.verifyAppsVersion.verifyContains'(GlobalVariable.actualVersion, '1.0.1')
+CustomKeywords.'customKeywords.verifyAppsVersion.verifyContains'(GlobalVariable.actualVersion, GlobalVariable.expectedVersion)
 
 Mobile.tap(findTestObject('Side Bar/android.view.View - Cbange language drawer'), 0)
 
@@ -45,6 +45,8 @@ Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('Home/Guest User/android.view.View - Close taskbar button'), 0)
 
 Mobile.tap(findTestObject('Home/Guest User/android.view.View - Scan QR button'), 0)
+
+Mobile.delay(5)
 
 Mobile.tap(findTestObject('Scan/Open Camera/android.view.View - Flash button'), 0)
 

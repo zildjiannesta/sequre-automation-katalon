@@ -25,6 +25,8 @@ Mobile.tap(findTestObject('Side Bar/Edit Profile/android.view.View - Edit profil
 
 Mobile.tap(findTestObject('Side Bar/Edit Profile/android.widget.ImageView - Image picker'), 0)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.setText(findTestObject('Side Bar/Edit Profile/android.widget.EditText - Name field'), GlobalVariable.newFullname, 
     0)
 
@@ -34,4 +36,6 @@ Mobile.setText(findTestObject('Side Bar/Edit Profile/android.widget.EditText - E
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Side Bar/Edit Profile/android.view.View - Save profile change button'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

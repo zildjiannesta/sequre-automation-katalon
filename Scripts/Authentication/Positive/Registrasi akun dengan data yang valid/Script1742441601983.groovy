@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.appFile, false)
+Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
+//Mobile.startApplication(GlobalVariable.appFile, false)
 
 Mobile.tap(findTestObject('Home/Guest User/android.view.View - Register button'), 0)
 

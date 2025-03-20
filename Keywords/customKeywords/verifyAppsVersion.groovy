@@ -20,25 +20,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.exception.StepFailedException
 
-import internal.GlobalVariable
-
 public class verifyAppsVersion {
-	
+
 	@Keyword
 	def verifyContains(String actualVersion, String expectedVersion) {
-		
+
 		KeywordUtil.logInfo("🔍 Verifying application version...")
-		
+
 		if (!actualVersion.contains(expectedVersion)) {
-			
+
 			String errorMessage = "❌ Version application doesn't match! Actual: ${actualVersion} | Expected: Sequre Ver ${expectedVersion}"
-			
+
 			KeywordUtil.logInfo(errorMessage)
-			
+
 			throw new StepFailedException(errorMessage)
-			
 		} else {
-			
+
 			KeywordUtil.logInfo("✔ Version matches: ${actualVersion}")
 		}
 	}

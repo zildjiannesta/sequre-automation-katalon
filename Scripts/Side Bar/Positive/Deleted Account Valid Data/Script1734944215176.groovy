@@ -18,20 +18,18 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Home/Logged User/android.view.View - Open sidebar button'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Side Bar/android.widget.TextView - Delete Account'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.setText(findTestObject('null'), GlobalVariable.newEmailaddresss, 
+Mobile.setText(findTestObject('Side Bar/Deteled Account/android.widget.EditText - Delete account email field'), GlobalVariable.newEmailaddresss, 
     0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Side Bar/Deteled Account/android.view.View - Confirm detele account button'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Side Bar/Deteled Account/android.view.View - Deleted account confirm button pop up'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.delay(6, FailureHandling.STOP_ON_FAILURE)
 

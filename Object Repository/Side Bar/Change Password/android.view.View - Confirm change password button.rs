@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.view.View - List history reward</name>
+   <name>android.view.View - Confirm change password button</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -13,159 +13,159 @@
       <name>class</name>
       <type>Main</type>
       <value>android.view.View</value>
-      <webElementGuid>11b33609-7aa8-4808-93f0-a8903995345f</webElementGuid>
+      <webElementGuid>af9dad76-ec44-41ea-bb23-b77bf105d694</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>7</value>
-      <webElementGuid>d2dba66f-b729-46bb-a4c5-91591477583a</webElementGuid>
+      <value>3</value>
+      <webElementGuid>82004ba7-4188-4308-9d52-78d3d6f8b927</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>home_scan_history_item_0</value>
-      <webElementGuid>d30f430c-9841-46ea-a0de-194d2b3d888c</webElementGuid>
+      <value>action_button</value>
+      <webElementGuid>b66f4243-60a0-4e07-a62a-a81a9df68308</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
       <value>id.sequre.pro</value>
-      <webElementGuid>d31ec984-7fcb-481f-9755-e0aaec7a167a</webElementGuid>
+      <webElementGuid>2c59fa50-7b75-4818-8b7d-5d6dd1e05d17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5528e9f5-0853-496b-b7a5-2a6ce282390d</webElementGuid>
+      <webElementGuid>28fc16c1-d30d-4db4-91b5-f4279d643def</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f400ce76-42d5-4007-baf9-1a4cc799fa08</webElementGuid>
+      <webElementGuid>852ff310-f77f-4ba7-8778-f57fd553a36c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>8a54b5f5-af7d-409e-867f-622c8559cc4a</webElementGuid>
+      <webElementGuid>bfb3ba23-bb22-4d36-b6aa-f8912e03e4d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a85e7b5c-366e-4710-87af-bb0d067d5e59</webElementGuid>
+      <webElementGuid>31e5b6cd-7396-4ef4-b072-010dfdf5f4f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>fc0f38cb-4db4-4eca-b58f-31513cee32a8</webElementGuid>
+      <webElementGuid>01ffe33f-ae45-4740-97e4-0d12b90df338</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1c29ca65-1569-42a1-a362-98d028fe0729</webElementGuid>
+      <webElementGuid>7e0e4682-7079-40eb-ba90-27bd717b0db6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>cf913970-6c4d-48ee-890f-c4d0a7a31e14</webElementGuid>
+      <webElementGuid>4604e903-e595-4b4b-9688-c918ef8a571c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>80109102-edc5-426e-9f92-b656d9eff81e</webElementGuid>
+      <webElementGuid>1abb0762-dc17-43e0-a003-41ee63fc4792</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1ab7a61f-01be-4080-81a8-c0d34ef4d960</webElementGuid>
+      <webElementGuid>3bbbd1a6-f556-42dc-af82-e8adf76887ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>93e1b951-328a-43b7-beee-ab42c1123e45</webElementGuid>
+      <webElementGuid>111da180-dd3e-4eb8-ae05-c27f35754938</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>55</value>
-      <webElementGuid>cf15689f-efc6-463c-adfc-8c8f41a87a9c</webElementGuid>
+      <value>561</value>
+      <webElementGuid>e4398497-78a2-4b5c-8186-193209b64982</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>888</value>
-      <webElementGuid>c6b11e62-d543-48da-94fb-7eb34b43b050</webElementGuid>
+      <value>1298</value>
+      <webElementGuid>dd4941fc-4e98-4d3f-8edb-ac627c16d82f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>970</value>
-      <webElementGuid>602ad659-9f23-4ec1-9a42-ca3e47896aa3</webElementGuid>
+      <value>336</value>
+      <webElementGuid>938e2054-b361-46d8-8318-156e4c3efa61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>293</value>
-      <webElementGuid>3a26abd6-20d3-4218-9b09-e7fa77de448e</webElementGuid>
+      <value>132</value>
+      <webElementGuid>6aeaf3a5-d3bc-4041-9811-0933cd1af01c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[55,888][1025,1181]</value>
-      <webElementGuid>07bb5b19-1ae2-4e57-9f87-40dcc0ab25cc</webElementGuid>
+      <value>[561,1298][897,1430]</value>
+      <webElementGuid>29b7adce-b603-4f9a-822d-7907ca5444a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>865217da-2b63-416e-9999-31cc397da714</webElementGuid>
+      <webElementGuid>2e25575f-609c-49d1-ab62-869672bbb10c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -173,17 +173,17 @@
       <name>text</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>bf4035dd-7bea-4ca4-a52a-71d1a1ac678e</webElementGuid>
+      <webElementGuid>b1ddb925-7265-41ba-917a-7de931881bb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/f1.l0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[3]</value>
-      <webElementGuid>fad94252-3335-41d6-93aa-616de6230550</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]</value>
+      <webElementGuid>0f92c629-fb57-403f-95c2-e794643a0895</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.view.View' and @resource-id = 'home_scan_history_item_0' and (@text = '' or . = '')]</locator>
+   <locator>new UiSelector().className(&quot;android.view.View&quot;).resourceId(&quot;action_button&quot;).packageName(&quot;id.sequre.pro&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(3)</locator>
    <locatorCollection>
       <entry>
          <key>CLASS_NAME</key>
@@ -191,42 +191,49 @@
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.view.View' and @resource-id = 'home_scan_history_item_0' and (@text = '' or . = '')]</value>
+         <value>//*[@class = 'android.view.View' and @resource-id = 'action_button' and (@text = '' or . = '')]</value>
       </entry>
       <entry>
          <key>IOS_PREDICATE_STRING</key>
+         <value></value>
       </entry>
       <entry>
          <key>ID</key>
-         <value>home_scan_history_item_0</value>
+         <value>action_button</value>
       </entry>
       <entry>
          <key>NAME</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/f1.l0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[3]</value>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
+         <value></value>
       </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
+         <value></value>
       </entry>
       <entry>
          <key>IMAGE</key>
+         <value></value>
       </entry>
       <entry>
          <key>CUSTOM</key>
+         <value></value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.view.View&quot;).resourceId(&quot;home_scan_history_item_0&quot;).packageName(&quot;id.sequre.pro&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(7)</value>
+         <value>new UiSelector().className(&quot;android.view.View&quot;).resourceId(&quot;action_button&quot;).packageName(&quot;id.sequre.pro&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(3)</value>
       </entry>
       <entry>
          <key>ACCESSIBILITY</key>
+         <value></value>
       </entry>
    </locatorCollection>
-   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+   <locatorStrategy>ANDROID_UI_AUTOMATOR</locatorStrategy>
    <platform>ANDROID</platform>
 </MobileElementEntity>
