@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication( GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Side Bar/android.view.View - Logout button'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Side Bar/Logout/android.view.View - Confirm logout pop up'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

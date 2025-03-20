@@ -55,8 +55,13 @@
       <name>newAccpassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Biarkan kosong</description>
       <initValue>''</initValue>
       <name>actualVersion</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1.0.1'</initValue>
+      <name>expectedVersion</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
