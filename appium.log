@@ -115,3 +115,5 @@
 [38;5;111m[48ce7b3e][0m[38;5;221m[AppiumDriver@058b][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
 [38;5;111m[48ce7b3e][0m[38;5;221m[AppiumDriver@058b][0m Removing session '48ce7b3e-2ff0-40a1-a88a-06c2be23627f' from our master session list
 [38;5;111m[48ce7b3e][0m[38;5;-146m[AndroidUiautomator2Driver@e703][0m Restoring hidden api policy to the device default configuration
+[38;5;111m[48ce7b3e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/48ce7b3e-2ff0-40a1-a88a-06c2be23627f[39m [90m{}[39m
+[38;5;111m[48ce7b3e][0m[38;5;86m[HTTP][0m [37m<-- DELETE /wd/hub/session/48ce7b3e-2ff0-40a1-a88a-06c2be23627f [39m[33m404[39m [90m261 ms - 3152[39m [90m[39m
