@@ -22,8 +22,9 @@ Mobile.tap(findTestObject('Home/Logged User/android.view.View - Open sidebar but
 
 Mobile.tap(findTestObject('Side Bar/android.widget.TextView - Delete Account'), 0)
 
-Mobile.setText(findTestObject('Side Bar/Deteled Account/android.widget.EditText - Delete account email field'), GlobalVariable.newEmailaddresss, 
-    0)
+//Mobile.setText(findTestObject('Side Bar/Deteled Account/android.widget.EditText - Delete account email field'), GlobalVariable.newEmailaddresss, 0)
+
+Mobile.setText(findTestObject('Side Bar/Deteled Account/android.widget.EditText - Delete account email field'), GlobalVariable.emailAddress, 0)
 
 Mobile.hideKeyboard()
 
