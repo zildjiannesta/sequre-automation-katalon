@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(findTestObject('Home/Logged User/android.view.View - Open sidebar button'), 2, FailureHandling.OPTIONAL)
+
 Mobile.tap(findTestObject('Side Bar/Edit Profile/android.view.View - Edit profile button'), 0)
 
 Mobile.tap(findTestObject('Side Bar/Edit Profile/android.view.View - Edit profile button'), 0)
@@ -28,8 +30,8 @@ Mobile.tap(findTestObject('Side Bar/Edit Profile/android.widget.ImageView - Imag
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.setText(findTestObject('Side Bar/Edit Profile/android.widget.EditText - Name field'), GlobalVariable.newFullname, 0)
-
-Mobile.setText(findTestObject('Side Bar/Edit Profile/android.widget.EditText - Email field'), GlobalVariable.newEmailaddresss, 0)
+Mobile.setText(findTestObject('Side Bar/Edit Profile/android.widget.EditText - Email field'), GlobalVariable.newEmailaddresss, 
+    0)
 
 Mobile.hideKeyboard()
 
