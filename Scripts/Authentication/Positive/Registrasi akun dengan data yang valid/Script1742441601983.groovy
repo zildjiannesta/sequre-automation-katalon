@@ -20,22 +20,19 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 //Mobile.startApplication(GlobalVariable.appFile, false)
 
+Mobile.waitForElementPresent(findTestObject('Home/Guest User/android.view.View - Register button'), 0)
+
 Mobile.tap(findTestObject('Home/Guest User/android.view.View - Register button'), 0)
 
-Mobile.setText(findTestObject('Authentication/Register/android.widget.EditText - Full name field'), GlobalVariable.fullName, 
-    0)
+Mobile.setText(findTestObject('Authentication/Register/android.widget.EditText - Full name field'), GlobalVariable.fullName, 0)
 
-Mobile.setText(findTestObject('Authentication/Register/android.widget.EditText - Phone number field'), GlobalVariable.numberPhone, 
-    0)
+Mobile.setText(findTestObject('Authentication/Register/android.widget.EditText - Phone number field'), GlobalVariable.numberPhone, 0)
 
-Mobile.setText(findTestObject('Authentication/Register/android.widget.EditText - Email field'), GlobalVariable.emailAddress, 
-    0)
+Mobile.setText(findTestObject('Authentication/Register/android.widget.EditText - Email field'), GlobalVariable.emailAddress, 0)
 
-Mobile.setText(findTestObject('Authentication/Register/android.widget.EditText - Password field'), GlobalVariable.accountPassword, 
-    0)
+Mobile.setText(findTestObject('Authentication/Register/android.widget.EditText - Password field'), GlobalVariable.accountPassword, 0)
 
-Mobile.setText(findTestObject('Authentication/Register/android.widget.EditText - Confirm password field'), GlobalVariable.confirmPassword, 
-    0)
+Mobile.setText(findTestObject('Authentication/Register/android.widget.EditText - Confirm password field'), GlobalVariable.confirmPassword, 0)
 
 Mobile.hideKeyboard()
 
@@ -43,17 +40,26 @@ Mobile.tap(findTestObject('Authentication/Register/android.widget.TextView - Ter
 
 Mobile.tap(findTestObject('Authentication/Register/android.view.View - Agree to terms button'), 0)
 
-Mobile.tap(findTestObject('Authentication/Register/android.view.View - Register button'), 0)
+Mobile.waitForElementPresent(findTestObject('Authentication/Register/android.view.View - Register button'), 0)
 
-Mobile.delay(6)
+Mobile.tap(findTestObject('Authentication/Register/android.view.View - Register button'), 0)
 
 Mobile.tap(findTestObject('Authentication/Input OTP/android.widget.EditText - OTP field'), 0)
 
-Mobile.delay(30)
+boolean isOTPEntered = false
+TestObject submitButton = findTestObject('Authentication/Input OTP/android.view.View - Verify OTP button')
 
-Mobile.hideKeyboard()
+while (!isOTPEntered) {
+	
+	boolean isEnabled = Mobile.verifyElementAttributeValue(submitButton, 'enabled', 'true', 0, FailureHandling.OPTIONAL	)
+	
+	if (isEnabled) {
+		isOTPEntered = true
+		Mobile.comment("OTP telah diisi, melanjutkan proses..")
+	} else {
+		Mobile.comment("Menunggu pengguna mengisi OTP...")
+	}
+}
 
 Mobile.tap(findTestObject('Authentication/Input OTP/android.view.View - Verify OTP button'), 0)
-
-Mobile.delay(6)
 

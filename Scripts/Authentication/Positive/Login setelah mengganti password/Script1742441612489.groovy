@@ -21,9 +21,9 @@ Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_
 
 Mobile.tap(findTestObject('Home/Guest User/android.view.View - Login button'), 0)
 
-//Mobile.setText(findTestObject('Authentication/Login/android.widget.EditText - Email field'), GlobalVariable.newEmailaddresss, 0)
+Mobile.setText(findTestObject('Authentication/Login/android.widget.EditText - Email field'), GlobalVariable.newEmailaddresss, 0)
 
-Mobile.setText(findTestObject('Authentication/Login/android.widget.EditText - Email field'), GlobalVariable.emailAddress, 0)
+//Mobile.setText(findTestObject('Authentication/Login/android.widget.EditText - Email field'), GlobalVariable.emailAddress, 0)
 
 Mobile.setText(findTestObject('Authentication/Login/android.widget.EditText - Password field'), GlobalVariable.newAccpassword, 0)
 

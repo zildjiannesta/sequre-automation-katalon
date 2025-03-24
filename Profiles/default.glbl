@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Users\\zildjian\\OneDrive\\Documents\\QTrust\\Build APK\\sequre_pro_temp_katalon.apk'</initValue>
+      <initValue>'C:\\Users\\zildjian\\OneDrive\\Documents\\QTrust\\Build APK\\sequre_pro_151_101_katalon.apk'</initValue>
       <name>appFile</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -16,12 +16,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'David Anderson'</initValue>
+      <initValue>'Lucius Thornhart'</initValue>
       <name>fullName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'katalon.anderson@yopmail.com'</initValue>
+      <initValue>'katalon.lucius@yopmail.com'</initValue>
       <name>emailAddress</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,12 +41,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Anderson David'</initValue>
+      <initValue>'Thornhart Lucius'</initValue>
       <name>newFullname</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'anderson.katalon@yopmail.com'</initValue>
+      <initValue>'lucius.katalon@yopmail.com'</initValue>
       <name>newEmailaddresss</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
