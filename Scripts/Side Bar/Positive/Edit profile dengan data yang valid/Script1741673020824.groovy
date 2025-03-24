@@ -19,21 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Side Bar/Edit Profile/android.view.View - Edit profile button'), 0)
+Mobile.tap(findTestObject('Side Bar/Edit Profile/Edit profile button'), 0)
 
-Mobile.tap(findTestObject('Side Bar/Edit Profile/android.view.View - Edit profile button'), 0)
+Mobile.tap(findTestObject('Side Bar/Edit Profile/Edit profile button'), 0)
 
-Mobile.tap(findTestObject('Side Bar/Edit Profile/android.widget.ImageView - Image picker'), 0)
+Mobile.tap(findTestObject('Side Bar/Edit Profile/Image picker'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.setText(findTestObject('Side Bar/Edit Profile/android.widget.EditText - Name field'), GlobalVariable.newFullname, 0)
+//Mobile.setText(findTestObject('Side Bar/Edit Profile/Name field'), GlobalVariable.newFullname, 0)
 
-Mobile.setText(findTestObject('Side Bar/Edit Profile/android.widget.EditText - Email field'), GlobalVariable.newEmailaddresss, 0)
+Mobile.setText(findTestObject('Side Bar/Edit Profile/Email field'), GlobalVariable.newEmailaddresss, 0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Side Bar/Edit Profile/android.view.View - Save profile change button'), 0)
+Mobile.tap(findTestObject('Side Bar/Edit Profile/Save profile change button'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
