@@ -19,23 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Side Bar/Change Password/android.view.View - Change password drawer'), 0)
+Mobile.tap(findTestObject('Object Repository/Side Bar/Change Password/Change password drawer'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Side Bar/Change Password/android.widget.EditText - Old password field (1)'), 
+Mobile.setText(findTestObject('Object Repository/Side Bar/Change Password/Old password field (1)'), 
     GlobalVariable.accountPassword, 0)
 
 Mobile.setText(findTestObject('Object Repository/Side Bar/Change Password/android.widget.EditText - New password field (1)'), 
     GlobalVariable.newAccpassword, 0)
 
-Mobile.setText(findTestObject('Object Repository/Side Bar/Change Password/android.widget.EditText - Confirm password field'), 
+Mobile.setText(findTestObject('Object Repository/Side Bar/Change Password/Confirm password field'), 
     GlobalVariable.newAccpassword, 0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/Side Bar/Change Password/android.view.View - Save button'), 0)
+Mobile.tap(findTestObject('Object Repository/Side Bar/Change Password/Save button'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Side Bar/Change Password/android.view.View - Confirm change password button'), 
+Mobile.tap(findTestObject('Object Repository/Side Bar/Change Password/Confirm change password button'), 
     0)
 
-Mobile.tap(findTestObject('Side Bar/Change Password/android.view.View - Okay after success change password'), 0)
+Mobile.tap(findTestObject('Side Bar/Change Password/Okay after success change password'), 0)
 
