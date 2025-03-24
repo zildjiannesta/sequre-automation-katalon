@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Home/Logged User/android.view.View - Open sidebar button'), 0)
+Mobile.tap(findTestObject('Home/Logged User/Open sidebar button'), 0)
 
-Mobile.tap(findTestObject('Side Bar/Change Theme And Language/android.widget.TextView - Language change'), 0)
+Mobile.tap(findTestObject('Side Bar/Change Theme And Language/Language change'), 0)
 
-Mobile.tap(findTestObject('Side Bar/Change Theme And Language/android.widget.TextView - Language change'), 0)
+Mobile.tap(findTestObject('Side Bar/Change Theme And Language/Language change'), 0)
 
-Mobile.tap(findTestObject('Side Bar/Change Theme And Language/android.widget.TextView - Switch Mode'), 0)
+Mobile.tap(findTestObject('Side Bar/Change Theme And Language/Switch Mode'), 0)
 
-Mobile.tap(findTestObject('Side Bar/Change Theme And Language/android.widget.TextView - Switch Mode'), 0)
+Mobile.tap(findTestObject('Side Bar/Change Theme And Language/Switch Mode'), 0)
 

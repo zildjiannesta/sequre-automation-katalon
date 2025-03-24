@@ -20,39 +20,39 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startApplication(GlobalVariable.appFile, false)
 
 //Mobile.startExistingApplication('id.sequre.pro')
-Mobile.tap(findTestObject('Home/Guest User/android.view.View - Info tooltip button'), 0)
+Mobile.tap(findTestObject('Home/Guest User/Info tooltip button'), 0)
 
 Mobile.delay(5)
 
-Mobile.tap(findTestObject('Home/Guest User/android.view.View - Open sidebar button'), 0)
+Mobile.tap(findTestObject('Home/Guest User/Open sidebar button'), 0)
 
-GlobalVariable.actualVersion = Mobile.getText(findTestObject('Side Bar/android.widget.TextView - Apps version'), 3)
+GlobalVariable.actualVersion = Mobile.getText(findTestObject('Side Bar/Apps version'), 3)
 
 CustomKeywords.'customKeywords.verifyAppsVersion.verifyContains'(GlobalVariable.actualVersion, GlobalVariable.expectedVersion)
 
-Mobile.tap(findTestObject('Side Bar/android.view.View - Cbange language drawer'), 0)
+Mobile.tap(findTestObject('Side Bar/Change language drawer'), 0)
 
-Mobile.tap(findTestObject('Side Bar/android.view.View - Cbange language drawer'), 0)
-
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Side Bar/android.view.View - Change theme drawer'), 0)
-
-Mobile.tap(findTestObject('Side Bar/android.view.View - Change theme drawer'), 0)
+Mobile.tap(findTestObject('Side Bar/Change language drawer'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Home/Guest User/android.view.View - Close taskbar button'), 0)
+Mobile.tap(findTestObject('Side Bar/Change theme drawer'), 0)
 
-Mobile.tap(findTestObject('Home/Guest User/android.view.View - Scan QR button'), 0)
+Mobile.tap(findTestObject('Side Bar/Change theme drawer'), 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Home/Guest User/Close taskbar button'), 0)
+
+Mobile.tap(findTestObject('Home/Guest User/Scan QR button'), 0)
 
 Mobile.delay(5)
 
-Mobile.tap(findTestObject('Scan/Open Camera/android.view.View - Flash button'), 0)
+Mobile.tap(findTestObject('Scan/Open Camera/Flash button'), 0)
 
-Mobile.tap(findTestObject('Scan/Open Camera/android.view.View - Flash button'), 0)
+Mobile.tap(findTestObject('Scan/Open Camera/Flash button'), 0)
 
-Mobile.tap(findTestObject('Scan/Open Camera/android.widget.Button - Back button'), 0)
+Mobile.tap(findTestObject('Scan/Open Camera/Back button'), 0)
 
 Mobile.delay(5)
 
