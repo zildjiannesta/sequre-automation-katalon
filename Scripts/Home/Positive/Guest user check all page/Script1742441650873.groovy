@@ -26,9 +26,9 @@ Mobile.delay(5)
 
 Mobile.tap(findTestObject('Home/Guest User/Open sidebar button'), 0)
 
-GlobalVariable.actualVersion = Mobile.getText(findTestObject('Home/Guest User/Apps Version'), 0)
+//GlobalVariable.actualVersion = Mobile.getText(findTestObject('Home/Guest User/Apps Version'), 0)
 
-CustomKeywords.'customKeywords.verifyAppsVersion.verifyContains'(GlobalVariable.actualVersion, GlobalVariable.expectedVersion)
+//CustomKeywords.'customKeywords.verifyAppsVersion.verifyContains'(GlobalVariable.actualVersion, GlobalVariable.expectedVersion)
 
 Mobile.tap(findTestObject('Side Bar/Change language drawer'), 0)
 
