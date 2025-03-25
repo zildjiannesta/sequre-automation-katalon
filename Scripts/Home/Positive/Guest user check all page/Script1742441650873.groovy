@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.appFile, false)
+Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.startExistingApplication('id.sequre.pro')
 Mobile.tap(findTestObject('Home/Guest User/Info tooltip button'), 0)
@@ -26,9 +26,9 @@ Mobile.delay(5)
 
 Mobile.tap(findTestObject('Home/Guest User/Open sidebar button'), 0)
 
-//GlobalVariable.actualVersion = Mobile.getText(findTestObject('Home/Guest User/Apps Version'), 0)
+not_run: GlobalVariable.actualVersion = Mobile.getText(findTestObject('Home/Guest User/Apps Version'), 0)
 
-//CustomKeywords.'customKeywords.verifyAppsVersion.verifyContains'(GlobalVariable.actualVersion, GlobalVariable.expectedVersion)
+not_run: CustomKeywords.'customKeywords.verifyAppsVersion.verifyContains'(GlobalVariable.actualVersion, GlobalVariable.expectedVersion)
 
 Mobile.tap(findTestObject('Side Bar/Change language drawer'), 0)
 
@@ -36,13 +36,17 @@ Mobile.tap(findTestObject('Side Bar/Change language drawer'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Side Bar/Positive/Change language and theme'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Side Bar/Change theme drawer'), 0)
 
 Mobile.tap(findTestObject('Side Bar/Change theme drawer'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Home/Guest User/Close taskbar button'), 0)
+not_run: Mobile.tap(findTestObject('Home/Guest User/Close taskbar button'), 0)
+
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Home/Guest User/Scan QR button'), 0)
 
