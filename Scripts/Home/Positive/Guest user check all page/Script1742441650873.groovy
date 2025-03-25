@@ -18,12 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-<<<<<<< HEAD
+
 String appPackage = 'id.sequre.pro'
 String playStoreURL = 'https://play.google.com/store/apps/details?id=' + appPackage
-=======
-Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
->>>>>>> b9a0d7eb6ec96ef198b011c5098dcd4d80e1a827
 
 // Check instalasi aplikasi
 
@@ -31,15 +28,10 @@ Process process = Runtime.getRuntime().exec('adb shell pm list packages ' + appP
 
 BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()))
 
-<<<<<<< HEAD
+
 String line
 
 boolean isInstalled = false
-=======
-not_run: GlobalVariable.actualVersion = Mobile.getText(findTestObject('Home/Guest User/Apps Version'), 0)
-
-not_run: CustomKeywords.'customKeywords.verifyAppsVersion.verifyContains'(GlobalVariable.actualVersion, GlobalVariable.expectedVersion)
->>>>>>> b9a0d7eb6ec96ef198b011c5098dcd4d80e1a827
 
 while ((line = reader.readLine()) != null) {
 	
@@ -59,14 +51,8 @@ if (isInstalled) {
 	
     Mobile.comment('Aplikasi tidak ditemukan, membuka Play Store...')
 
-<<<<<<< HEAD
     Runtime.getRuntime().exec('adb shell am start -a android.intent.action.VIEW -d ' + playStoreURL)
 }
-=======
-WebUI.callTestCase(findTestCase('Side Bar/Positive/Change language and theme'), [:], FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Side Bar/Change theme drawer'), 0)
->>>>>>> b9a0d7eb6ec96ef198b011c5098dcd4d80e1a827
 
 //           | | |
 // Test Case | | |
@@ -74,7 +60,6 @@ Mobile.tap(findTestObject('Side Bar/Change theme drawer'), 0)
 
 // Allow video/camera permission
 
-<<<<<<< HEAD
 if (Mobile.verifyElementExist(findTestObject(''), 0)) {
 	
 	Mobile.tap(findTestObject(''), 0)
@@ -84,11 +69,6 @@ if (Mobile.verifyElementExist(findTestObject(''), 0)) {
 	Mobile.tap(findTestObject(''), 0)
 	
 }
-=======
-not_run: Mobile.tap(findTestObject('Home/Guest User/Close taskbar button'), 0)
-
-Mobile.pressBack()
->>>>>>> b9a0d7eb6ec96ef198b011c5098dcd4d80e1a827
 
 // Allow location permission
 
