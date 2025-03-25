@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>Register button</name>
+   <name>allow_video_and15_en</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -12,32 +12,40 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.view.View</value>
-      <webElementGuid>98dfa521-6e1b-4b26-86c0-fc5a61d1dc60</webElementGuid>
+      <value>android.widget.Button</value>
+      <webElementGuid>b4e072cc-a47b-4c03-b903-580dd2eeed9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>8</value>
-      <webElementGuid>6f01b26e-2fab-4f24-bf88-9621c35a39e3</webElementGuid>
+      <value>0</value>
+      <webElementGuid>4fd2a851-7ce2-4741-9040-672aa618d201</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>While using the app</value>
+      <webElementGuid>a6911eda-0c03-4834-b43a-e47110c5dd61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>guest_signup_button</value>
-      <webElementGuid>a0d20163-bfca-4517-aa09-e41726218a09</webElementGuid>
+      <value>com.android.permissioncontroller:id/permission_allow_foreground_only_button</value>
+      <webElementGuid>845b15d1-e0ab-465d-ae45-3495f62800a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>id.sequre.pro</value>
-      <webElementGuid>81bcab3c-cbea-4e9e-9345-7a7ae7224f35</webElementGuid>
+      <value>com.google.android.permissioncontroller</value>
+      <webElementGuid>ce9303d5-689f-478a-80bd-85eb6154639f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8a1958f3-6e4d-4b77-8a42-34558ac89985</webElementGuid>
+      <webElementGuid>40f472df-3138-41d5-9cdf-2cbdf238c6b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +61,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3dbe59e2-5701-4897-ac45-2dbfe46384fb</webElementGuid>
+      <webElementGuid>077737b0-b42e-48f9-9d12-72d73a97312e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +69,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ec4d799a-f86f-4621-9411-0812ab272011</webElementGuid>
+      <webElementGuid>7e8c5075-1400-4a05-b488-a0807174957a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +77,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9a67b093-f59c-4c9f-8200-684a2297fbd6</webElementGuid>
+      <webElementGuid>d8e26d02-7e4e-441e-a32b-acd5da39a74c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +85,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>839981ae-1d29-4fdd-9cb0-d9ec86e074e9</webElementGuid>
+      <webElementGuid>00f1875a-97af-4a6d-be72-f038f1ba6f5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>68161a77-aceb-47ab-ae08-ced9d4804219</webElementGuid>
+      <webElementGuid>653e390f-031c-4e3f-ae39-3d6ed397b30a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +101,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>38922567-c251-4041-a93c-03ac57e09a30</webElementGuid>
+      <webElementGuid>08f889eb-cd53-4bad-ac6d-4a4630e294d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +109,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8aa8a033-8394-4425-b5cd-dc17b6ebd882</webElementGuid>
+      <webElementGuid>1e392fac-62c0-481b-a3c2-093e0b7ec05c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d908d235-1cba-4b3d-9c32-4e590e15cd89</webElementGuid>
+      <webElementGuid>0fad172a-0c40-46ca-82c6-e22346be8b83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,47 +125,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>883defb3-dfe4-4363-b1ae-9c1fd8b0b308</webElementGuid>
+      <webElementGuid>ca03b69e-88fd-4778-96cb-8506d72bde7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>99</value>
-      <webElementGuid>4da62be5-c525-429a-a9c6-dd0d00d90a26</webElementGuid>
+      <value>104</value>
+      <webElementGuid>f43409c9-965b-4187-9ff5-461bdfab5d06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>1588</value>
-      <webElementGuid>5dee1b65-9034-44ad-980b-8bd1325cba1c</webElementGuid>
+      <value>1842</value>
+      <webElementGuid>2c553a1d-e152-4be0-9312-8c3df5428cf6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>419</value>
-      <webElementGuid>22e66b4b-f92e-4fc7-9050-2c08c8d286b1</webElementGuid>
+      <value>872</value>
+      <webElementGuid>7215ce1a-acb7-47cb-90eb-764032f80963</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>132</value>
-      <webElementGuid>79ddbad4-586c-47b1-b72c-4b09acc1e552</webElementGuid>
+      <value>138</value>
+      <webElementGuid>a9b807ee-20f7-43c6-bfeb-d3ca1f40bbfd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[99,1588][518,1720]</value>
-      <webElementGuid>a1905386-e4dd-4f07-b290-91a67f4bb1d7</webElementGuid>
+      <value>[104,1842][976,1980]</value>
+      <webElementGuid>79866fda-6e82-4e5d-8d41-31966c9517eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -165,66 +173,65 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>78c219db-6a19-482e-80c2-e6cfa536699a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value></value>
-      <webElementGuid>1efa3a85-aaf5-41cd-a666-4e3bddee9bc2</webElementGuid>
+      <webElementGuid>d1ba96e1-6b68-4ffa-afb0-55662f6b11ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/f1.l0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]</value>
-      <webElementGuid>69101a76-bddb-4a29-972e-dc60621b47aa</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.Button[1]</value>
+      <webElementGuid>da3526a2-61dc-4c96-8ef4-1cb37ee423d1</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.view.View' and @resource-id = 'guest_signup_button' and (@text = '' or . = '')]</locator>
+   <locator>//*[@class = 'android.widget.Button' and (@text = 'While using the app') and @resource-id = 'com.android.permissioncontroller:id/permission_allow_foreground_only_button']</locator>
    <locatorCollection>
       <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.view.View&quot;).resourceId(&quot;guest_signup_button&quot;).packageName(&quot;id.sequre.pro&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(8)</value>
-      </entry>
-      <entry>
-         <key>NAME</key>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
-         <key>ACCESSIBILITY</key>
+         <key>IOS_CLASS_CHAIN</key>
+         <value></value>
       </entry>
       <entry>
          <key>CUSTOM</key>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value>android.view.View</value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/f1.l0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]</value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
+         <value></value>
       </entry>
       <entry>
          <key>ID</key>
-         <value>guest_signup_button</value>
+         <value>com.android.permissioncontroller:id/permission_allow_foreground_only_button</value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>android.widget.Button</value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.Button&quot;).text(&quot;While using the app&quot;).resourceId(&quot;com.android.permissioncontroller:id/permission_allow_foreground_only_button&quot;).packageName(&quot;com.google.android.permissioncontroller&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)</value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value></value>
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.view.View' and @resource-id = 'guest_signup_button' and (@text = '' or . = '')]</value>
+         <value>//*[@class = 'android.widget.Button' and (@text = 'While using the app') and @resource-id = 'com.android.permissioncontroller:id/permission_allow_foreground_only_button']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.Button[1]</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
+         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

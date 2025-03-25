@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Home/Guest User/Login button'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.setText(findTestObject('Authentication/Login/Email field'), GlobalVariable.newEmailaddresss, 0)
 
