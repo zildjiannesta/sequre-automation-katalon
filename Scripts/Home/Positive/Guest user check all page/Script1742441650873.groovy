@@ -26,7 +26,7 @@ Mobile.delay(5)
 
 Mobile.tap(findTestObject('Home/Guest User/Open sidebar button'), 0)
 
-GlobalVariable.actualVersion = Mobile.getText(findTestObject('Side Bar/Apps version'), 3)
+GlobalVariable.actualVersion = Mobile.getText(findTestObject('Home/Guest User/Apps Version'), 0)
 
 CustomKeywords.'customKeywords.verifyAppsVersion.verifyContains'(GlobalVariable.actualVersion, GlobalVariable.expectedVersion)
 

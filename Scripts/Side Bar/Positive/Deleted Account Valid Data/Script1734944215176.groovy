@@ -25,12 +25,9 @@ Mobile.tap(findTestObject('Side Bar/Delete Account'), 0)
 Mobile.setText(findTestObject('Side Bar/Deteled Account/Delete account email field'), GlobalVariable.newEmailaddresss, 0)
 
 //Mobile.setText(findTestObject('Side Bar/Deteled Account/Delete account email field'), GlobalVariable.emailAddress, 0)
-
 Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Side Bar/Deteled Account/Confirm detele account button'), 0)
 
 Mobile.tap(findTestObject('Side Bar/Deteled Account/Deleted account confirm button pop up'), 0)
 
-Mobile.delay(6, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Side Bar/Deteled Account/Confirm detele account button'), 0)
 
