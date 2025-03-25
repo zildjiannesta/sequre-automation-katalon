@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>Scan QR button</name>
+   <name>allow_location_and15_en</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -12,40 +12,40 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.view.View</value>
-      <webElementGuid>79a70e7d-0a06-45a5-a3bb-1775bb15a15e</webElementGuid>
+      <value>android.widget.Button</value>
+      <webElementGuid>9ccb6c8a-b39e-4818-8fc4-ba45f0003a95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>10</value>
-      <webElementGuid>9abeea7b-ebd1-416e-a1bf-799918eb0414</webElementGuid>
+      <value>0</value>
+      <webElementGuid>c042dc82-f85f-4408-a02a-8151b055a6a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>While using the app</value>
+      <webElementGuid>e4b1091d-3e1c-4d7d-9501-078d14aa7961</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>home_scan_button</value>
-      <webElementGuid>e0ab9f51-e661-4fe3-91a3-7a5a5d4cc350</webElementGuid>
+      <value>com.android.permissioncontroller:id/permission_allow_foreground_only_button</value>
+      <webElementGuid>3ed7c094-ffce-473f-b4f5-ea3054270b2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>id.sequre.pro</value>
-      <webElementGuid>74725b4c-6e9b-4f13-b0aa-956931bef89f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>content-desc</name>
-      <type>Main</type>
-      <value>Button to initiate a scan on the home screen</value>
-      <webElementGuid>9ec517bf-8607-4a9a-a674-77dbccdf056d</webElementGuid>
+      <value>com.google.android.permissioncontroller</value>
+      <webElementGuid>a69df982-e079-466d-9fb4-76418785b13e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f4a4ea4d-9965-4075-a9a6-e670f2136cd0</webElementGuid>
+      <webElementGuid>42366783-08dd-4a86-b63f-1461846f0369</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3ab58d6c-8717-4121-b107-0ed13841938e</webElementGuid>
+      <webElementGuid>95c67349-ea24-405d-ac96-a910751140e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>b6a0e1f2-6445-4801-bc51-27a5047e9073</webElementGuid>
+      <webElementGuid>4e8d1df6-a9c7-4122-8e75-207b7aa684ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a75fcdb7-e0f4-4c00-9d72-f554b1967041</webElementGuid>
+      <webElementGuid>4557eb0d-10c2-4c56-98b2-139ef868a6a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d842b65c-6e59-4c4c-a240-66d1a94ad251</webElementGuid>
+      <webElementGuid>32fcd580-3476-4fae-b4e1-0cc08d7ade5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>bb5585d3-0274-489d-b24f-a6d78be05d97</webElementGuid>
+      <webElementGuid>40323efe-4bdf-409d-8134-524a37c88d52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a0f62202-335b-49eb-99ea-18f2d77afcb3</webElementGuid>
+      <webElementGuid>bb2804fa-dc30-4399-847f-0ea4472cd7e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>770f284c-aa73-40e3-a8df-072c7250d88a</webElementGuid>
+      <webElementGuid>41533704-5a39-454e-9e44-1a0ebdbb9e9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e2336e4f-4c51-4a0d-8b14-0bf6d7c6bb11</webElementGuid>
+      <webElementGuid>cceafec9-351e-4d5d-9390-b5e6cdb1bc14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,47 +125,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>bc065bf0-0c5a-44dc-8e66-8b72f0e68e6b</webElementGuid>
+      <webElementGuid>41ce0a63-bab6-4ee7-83b6-76c4834624aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>816</value>
-      <webElementGuid>37142734-7583-4332-9622-c8e2d2cfe367</webElementGuid>
+      <value>104</value>
+      <webElementGuid>fb42d48c-b5c8-4595-afb3-64ca91d35b6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>2152</value>
-      <webElementGuid>988bb5df-3567-45c1-a196-7ae6b982073e</webElementGuid>
+      <value>1842</value>
+      <webElementGuid>09f4ed7a-66d3-4342-8701-1652842cc2fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>220</value>
-      <webElementGuid>3fcad54a-eecc-4148-9914-5edc8005e444</webElementGuid>
+      <value>872</value>
+      <webElementGuid>a10c18f9-996c-45e1-abb5-06c640ec6b68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>220</value>
-      <webElementGuid>3bb36477-8feb-4957-a68d-157daacb2760</webElementGuid>
+      <value>138</value>
+      <webElementGuid>3e1bbd77-aac0-4cf9-b45d-de8e9f2c01e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[816,2152][1036,2372]</value>
-      <webElementGuid>0c23762a-9738-436f-a270-9820b81c7e65</webElementGuid>
+      <value>[104,1842][976,1980]</value>
+      <webElementGuid>86fed276-11e6-4c5b-a9a6-787c8c41cdb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,67 +173,65 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>121d92c2-00b4-40c5-aefa-f0dddd9bc70a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value></value>
-      <webElementGuid>47977290-0e06-4742-8b6a-6f66c0a662b8</webElementGuid>
+      <webElementGuid>8384f8d6-4982-4806-a33e-9551d188f42c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/f1.l0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[5]</value>
-      <webElementGuid>71ae8b5d-59ce-4dcd-bb54-873183a3cf07</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.Button[1]</value>
+      <webElementGuid>c6b75154-f445-412e-8cfc-811838f5ca85</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.view.View' and @resource-id = 'home_scan_button' and (@text = '' or . = '')]</locator>
+   <locator>//*[@class = 'android.widget.Button' and (@text = 'While using the app') and @resource-id = 'com.android.permissioncontroller:id/permission_allow_foreground_only_button']</locator>
    <locatorCollection>
       <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.view.View&quot;).description(&quot;Button to initiate a scan on the home screen&quot;).resourceId(&quot;home_scan_button&quot;).packageName(&quot;id.sequre.pro&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(10)</value>
-      </entry>
-      <entry>
-         <key>NAME</key>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
-         <key>ACCESSIBILITY</key>
-         <value>Button to initiate a scan on the home screen</value>
+         <key>IOS_CLASS_CHAIN</key>
+         <value></value>
       </entry>
       <entry>
          <key>CUSTOM</key>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value>android.view.View</value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/f1.l0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[5]</value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
+         <value></value>
       </entry>
       <entry>
          <key>ID</key>
-         <value>home_scan_button</value>
+         <value>com.android.permissioncontroller:id/permission_allow_foreground_only_button</value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>android.widget.Button</value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.Button&quot;).text(&quot;While using the app&quot;).resourceId(&quot;com.android.permissioncontroller:id/permission_allow_foreground_only_button&quot;).packageName(&quot;com.google.android.permissioncontroller&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)</value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value></value>
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.view.View' and @resource-id = 'home_scan_button' and (@text = '' or . = '')]</value>
+         <value>//*[@class = 'android.widget.Button' and (@text = 'While using the app') and @resource-id = 'com.android.permissioncontroller:id/permission_allow_foreground_only_button']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.Button[1]</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
+         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
