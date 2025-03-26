@@ -19,10 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.startApplication(GlobalVariable.appFile, false)
 Mobile.waitForElementPresent(findTestObject('Home/Guest User/Register button'), 2)
 
-Mobile.tap(findTestObject('Home/Guest User/Register button'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.setText(findTestObject('Authentication/Register/Full name field'), GlobalVariable.fullName, 0)
 
