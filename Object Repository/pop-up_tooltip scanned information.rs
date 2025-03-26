@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>txt_please login</name>
+   <name>pop-up_tooltip scanned information</name>
    <tag></tag>
-   <elementGuidId>555a6e13-8112-4267-b551-21a395154613</elementGuidId>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -12,25 +12,24 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.TextView</value>
-      <webElementGuid>779eff24-b752-4087-a99f-362fa93ef01b</webElementGuid>
+      <value>android.view.View</value>
+      <webElementGuid>64ed8d3b-fd85-4029-817b-f32804cf9111</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>7</value>
-      <webElementGuid>2aa8d59c-f122-4326-a62f-155239eef917</webElementGuid>
+      <value>5</value>
+      <webElementGuid>e05cacc1-875d-4189-9abd-19a00f525229</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>resource-id</name>
       <type>Main</type>
-      <value>Please Sign Up or Login to
-access full features</value>
-      <webElementGuid>fbe77079-8e18-4c84-bbf8-a32fb1b7b8c2</webElementGuid>
+      <value>home_overview_info_tooltip</value>
+      <webElementGuid>11a4887c-3f62-449d-8e10-2cc42fd304a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,15 @@ access full features</value>
       <name>package</name>
       <type>Main</type>
       <value>id.sequre.pro</value>
-      <webElementGuid>fd0d790a-4f36-4b69-8f2f-de062b28bdc6</webElementGuid>
+      <webElementGuid>e10646c6-a9f3-486a-9ef3-a93cf50d6817</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>content-desc</name>
+      <type>Main</type>
+      <value>Tooltip providing additional info about the overview card</value>
+      <webElementGuid>cf751f06-5b14-44e1-bb1a-4029e41620dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +53,7 @@ access full features</value>
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>81b6668d-0bdc-46e7-9ffe-75446aa94aee</webElementGuid>
+      <webElementGuid>86f2c67c-ac5a-4fd0-acf8-a6b41d26e574</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +61,7 @@ access full features</value>
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8130d7b0-7a36-4bf5-b218-2f3208bfb4d7</webElementGuid>
+      <webElementGuid>70e24898-f54f-4e47-9e7a-c306f3d4a836</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +69,7 @@ access full features</value>
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1b8ddccd-a03f-431f-a57e-526725225e2c</webElementGuid>
+      <webElementGuid>273da9fa-2a67-4c44-9c5a-7befc9837e71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +77,7 @@ access full features</value>
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>b5a7fb8d-fb81-4a95-b6d1-4568d7c438e6</webElementGuid>
+      <webElementGuid>bbfdb62a-0429-46b3-8f2b-dab805f8193d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +85,7 @@ access full features</value>
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f04dc3b2-5489-4e96-98fe-147f7f357b61</webElementGuid>
+      <webElementGuid>f27944d3-913f-4619-8fd2-6482ed86c652</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +93,7 @@ access full features</value>
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f31d418e-83d4-4c64-98b6-456b1be762f3</webElementGuid>
+      <webElementGuid>0ca08686-925c-41d6-8b45-83b1f3ac309a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -94,7 +101,7 @@ access full features</value>
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3c026cdd-d06e-4efa-adb1-88019b2fe6b7</webElementGuid>
+      <webElementGuid>ca88bee5-7e8b-41eb-8b9f-3555fec7c1df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -102,7 +109,7 @@ access full features</value>
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8d8c2cff-4922-4a66-b5dd-9cce4d4dac06</webElementGuid>
+      <webElementGuid>a73fe5b6-639c-4b4c-96ef-14d3b832bbe1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -110,7 +117,7 @@ access full features</value>
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b29aadf6-984c-4eec-bb0d-244bf66eecfe</webElementGuid>
+      <webElementGuid>65419396-4528-41e5-8086-e530eb8509e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -118,47 +125,47 @@ access full features</value>
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>070bce01-0a16-466c-851b-658a4519ef0c</webElementGuid>
+      <webElementGuid>a1f98e0e-312b-4332-8ff1-3403db7cae69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>252</value>
-      <webElementGuid>d6da38f6-8f07-4f1d-931a-095bc57ac432</webElementGuid>
+      <value>354</value>
+      <webElementGuid>f916f5cf-8ba4-45cf-bf9c-3235b6ab9153</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>1423</value>
-      <webElementGuid>bbe38fa7-dc06-4698-b066-14e81d1825c7</webElementGuid>
+      <value>437</value>
+      <webElementGuid>022627f9-1028-4251-b6df-e76090ed04dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>576</value>
-      <webElementGuid>e5bfa1c2-9c74-49e9-831e-fe5ddc2d1b48</webElementGuid>
+      <value>561</value>
+      <webElementGuid>111072cf-d6eb-4bbe-a2bb-230ddea90c56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>120</value>
-      <webElementGuid>d0968fff-0833-417f-b586-54ce0b6d8919</webElementGuid>
+      <value>194</value>
+      <webElementGuid>2517c0cc-c506-4fa5-821d-5dcbcb5f1c9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[252,1423][828,1543]</value>
-      <webElementGuid>f1550f1c-c798-4c83-abeb-7c3bf62548f1</webElementGuid>
+      <value>[354,437][915,631]</value>
+      <webElementGuid>2c0c2332-0db6-4271-8233-f45495482b64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -166,23 +173,36 @@ access full features</value>
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d4db2cc4-e006-4048-95cf-15129e7274f7</webElementGuid>
+      <webElementGuid>45b3836f-aa3c-4a55-8d7d-fd91ff884d43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>b1f6793a-a408-4926-a6b9-b1ca61cbf347</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/g1.l0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.TextView[5]</value>
-      <webElementGuid>2b19978b-5623-4d09-92cf-f7a36fcbab88</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/g1.l0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]</value>
+      <webElementGuid>285682ae-a51e-47c2-a428-f97b5e87ea05</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class='android.widget.Button' and &#xd;
-(contains(@text, 'Mohon untuk Daftar atau Masuk untuk akses semua fitur') or &#xd;
-contains(@text, 'Mohon untuk Daftar atau Masuk untuk akses semua fitur') or &#xd;
-contains(@text, 'Saat aplikasi digunakan'))]</locator>
+   <locator>//*[@class = 'android.view.View' and @resource-id = 'home_overview_info_tooltip'</locator>
    <locatorCollection>
       <entry>
          <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>android.view.View</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
          <value></value>
       </entry>
       <entry>
@@ -191,49 +211,35 @@ contains(@text, 'Saat aplikasi digunakan'))]</locator>
       </entry>
       <entry>
          <key>IOS_PREDICATE_STRING</key>
-         <value>enabled == 1</value>
-      </entry>
-      <entry>
-         <key>ACCESSIBILITY</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.TextView' and (@text = 'Please Sign Up or Login to
-access full features' or . = 'Please Sign Up or Login to
-access full features')]</value>
-      </entry>
-      <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value>android.widget.TextView</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
          <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class='android.widget.Button' and &#xd;
-(contains(@text, 'Mohon untuk Daftar atau Masuk untuk akses semua fitur') or &#xd;
-contains(@text, 'Mohon untuk Daftar atau Masuk untuk akses semua fitur') or &#xd;
-contains(@text, 'Saat aplikasi digunakan'))]</value>
+         <value>//*[@class = 'android.view.View' and @resource-id = 'home_overview_info_tooltip'</value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value>Tooltip providing additional info about the overview card</value>
       </entry>
       <entry>
          <key>ID</key>
-         <value></value>
+         <value>home_overview_info_tooltip</value>
       </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
-         <value>**[`enabled == 1`]</value>
+         <value></value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Please Sign Up or Login to
-access full features&quot;).packageName(&quot;id.sequre.pro&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(7)</value>
+         <value>new UiSelector().className(&quot;android.view.View&quot;).description(&quot;Tooltip providing additional info about the overview card&quot;).resourceId(&quot;home_overview_info_tooltip&quot;).packageName(&quot;id.sequre.pro&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(5)</value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@class = 'android.view.View' and @resource-id = 'home_overview_info_tooltip' and (@text = '' or . = '')]</value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>XPATH</locatorStrategy>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>allow_video_and15_en</name>
+   <name>android.widget.Button - Saat aplikasi digunakan</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -13,7 +13,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.Button</value>
-      <webElementGuid>b4e072cc-a47b-4c03-b903-580dd2eeed9e</webElementGuid>
+      <webElementGuid>06c5e9c3-8eda-483b-bc71-d122a964f1b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,15 +21,15 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>4fd2a851-7ce2-4741-9040-672aa618d201</webElementGuid>
+      <webElementGuid>341aa154-47ea-46dd-a9b1-4c51da438062</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>While using the app</value>
-      <webElementGuid>a6911eda-0c03-4834-b43a-e47110c5dd61</webElementGuid>
+      <value>Saat aplikasi digunakan</value>
+      <webElementGuid>4c44460b-aa3c-4105-a03c-3a532a2ac9aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>resource-id</name>
       <type>Main</type>
       <value>com.android.permissioncontroller:id/permission_allow_foreground_only_button</value>
-      <webElementGuid>845b15d1-e0ab-465d-ae45-3495f62800a7</webElementGuid>
+      <webElementGuid>f5d24930-4004-4dc8-87dc-6959de1ede81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.google.android.permissioncontroller</value>
-      <webElementGuid>ce9303d5-689f-478a-80bd-85eb6154639f</webElementGuid>
+      <webElementGuid>f464f03a-cbda-499c-8998-2a9bbfb31e51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>40f472df-3138-41d5-9cdf-2cbdf238c6b4</webElementGuid>
+      <webElementGuid>50d42c03-937f-40fa-8503-fd2562be2549</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>077737b0-b42e-48f9-9d12-72d73a97312e</webElementGuid>
+      <webElementGuid>4af48c6a-54ee-4677-9517-b3c9a0ada944</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>7e8c5075-1400-4a05-b488-a0807174957a</webElementGuid>
+      <webElementGuid>6fa2d133-0a61-4ca7-87d3-e6ef232f8b52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d8e26d02-7e4e-441e-a32b-acd5da39a74c</webElementGuid>
+      <webElementGuid>048dd51c-a0de-4077-b665-fa09b26aeaad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>00f1875a-97af-4a6d-be72-f038f1ba6f5c</webElementGuid>
+      <webElementGuid>c46fc1f5-5724-439b-b4a3-a069a3c88509</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>653e390f-031c-4e3f-ae39-3d6ed397b30a</webElementGuid>
+      <webElementGuid>f2861e97-da98-461f-bced-ae31010364b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>08f889eb-cd53-4bad-ac6d-4a4630e294d2</webElementGuid>
+      <webElementGuid>2cc1dd3b-6550-4cdb-99ba-1ba91791db94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1e392fac-62c0-481b-a3c2-093e0b7ec05c</webElementGuid>
+      <webElementGuid>a003c135-bae2-48f1-81ad-721ea2ee2794</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0fad172a-0c40-46ca-82c6-e22346be8b83</webElementGuid>
+      <webElementGuid>60026fa8-7564-47ff-b835-c69354cc5723</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ca03b69e-88fd-4778-96cb-8506d72bde7d</webElementGuid>
+      <webElementGuid>8604631a-7ff8-40f4-84fc-a7fe7a177e38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>x</name>
       <type>Main</type>
       <value>104</value>
-      <webElementGuid>f43409c9-965b-4187-9ff5-461bdfab5d06</webElementGuid>
+      <webElementGuid>cdcecd54-7ab8-4d92-8f89-340740e5cb37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1842</value>
-      <webElementGuid>2c553a1d-e152-4be0-9312-8c3df5428cf6</webElementGuid>
+      <webElementGuid>29750de8-78e0-44c7-9bac-a55d037e7125</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>width</name>
       <type>Main</type>
       <value>872</value>
-      <webElementGuid>7215ce1a-acb7-47cb-90eb-764032f80963</webElementGuid>
+      <webElementGuid>6dc5a86e-a9e2-459f-8de0-66965f79e56c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>height</name>
       <type>Main</type>
       <value>138</value>
-      <webElementGuid>a9b807ee-20f7-43c6-bfeb-d3ca1f40bbfd</webElementGuid>
+      <webElementGuid>e71b874d-6899-4092-a584-e7c1231dd35c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -165,7 +165,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[104,1842][976,1980]</value>
-      <webElementGuid>79866fda-6e82-4e5d-8d41-31966c9517eb</webElementGuid>
+      <webElementGuid>262bc1b6-3169-4642-829b-088ad7e296e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,7 +173,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d1ba96e1-6b68-4ffa-afb0-55662f6b11ce</webElementGuid>
+      <webElementGuid>bd2a723a-88c4-4782-9f28-b1e221cab94a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -181,12 +181,20 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.Button[1]</value>
-      <webElementGuid>da3526a2-61dc-4c96-8ef4-1cb37ee423d1</webElementGuid>
+      <webElementGuid>9dbaf014-a10f-4f85-b236-f9695dc6d231</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.Button' and (@text = 'While using the app') and @resource-id = 'com.android.permissioncontroller:id/permission_allow_foreground_only_button']</locator>
+   <locator>//*[@class = 'android.widget.Button' and (@text = 'Saat aplikasi digunakan' or . = 'Saat aplikasi digunakan') and @resource-id = 'com.android.permissioncontroller:id/permission_allow_foreground_only_button']</locator>
    <locatorCollection>
       <entry>
-         <key>IOS_CLASS_CHAIN</key>
+         <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>android.widget.Button</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
          <value></value>
       </entry>
       <entry>
@@ -194,40 +202,32 @@
          <value></value>
       </entry>
       <entry>
-         <key>ID</key>
-         <value>com.android.permissioncontroller:id/permission_allow_foreground_only_button</value>
+         <key>IOS_PREDICATE_STRING</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CLASS_NAME</key>
-         <value>android.widget.Button</value>
+         <key>XPATH</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.Button[1]</value>
       </entry>
       <entry>
          <key>ACCESSIBILITY</key>
          <value></value>
       </entry>
       <entry>
+         <key>ID</key>
+         <value>com.android.permissioncontroller:id/permission_allow_foreground_only_button</value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.Button&quot;).text(&quot;While using the app&quot;).resourceId(&quot;com.android.permissioncontroller:id/permission_allow_foreground_only_button&quot;).packageName(&quot;com.google.android.permissioncontroller&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)</value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>NAME</key>
-         <value></value>
+         <value>new UiSelector().className(&quot;android.widget.Button&quot;).text(&quot;Saat aplikasi digunakan&quot;).resourceId(&quot;com.android.permissioncontroller:id/permission_allow_foreground_only_button&quot;).packageName(&quot;com.google.android.permissioncontroller&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)</value>
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.Button' and (@text = 'While using the app') and @resource-id = 'com.android.permissioncontroller:id/permission_allow_foreground_only_button']</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.Button[1]</value>
+         <value>//*[@class = 'android.widget.Button' and (@text = 'Saat aplikasi digunakan' or . = 'Saat aplikasi digunakan') and @resource-id = 'com.android.permissioncontroller:id/permission_allow_foreground_only_button']</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
