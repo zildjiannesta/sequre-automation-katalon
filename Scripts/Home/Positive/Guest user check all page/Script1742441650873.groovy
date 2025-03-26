@@ -62,7 +62,7 @@ if (isInstalled) {
 
 // Allow video/camera permission
 
-if (Mobile.verifyElementExist(findTestObject('Apps Permission/allow_video_and15'), 0)) {
+if (Mobile.verifyElementExist(findTestObject('Apps Permission/allow_video_and15'), 1, FailureHandling.OPTIONAL)) {
 	
 	Mobile.tap(findTestObject('Apps Permission/allow_video_and15'), 0)
 	
@@ -74,7 +74,7 @@ if (Mobile.verifyElementExist(findTestObject('Apps Permission/allow_video_and15'
 
 // Allow location permission
 
-if (Mobile.verifyElementExist(findTestObject('Apps Permission/allow_location_and15'), 0)) {
+if (Mobile.verifyElementExist(findTestObject('Apps Permission/allow_location_and15'), 1, FailureHandling.OPTIONAL)) {
 	
 	Mobile.tap(findTestObject('Apps Permission/allow_video_and15'), 0)
 	
@@ -86,7 +86,7 @@ if (Mobile.verifyElementExist(findTestObject('Apps Permission/allow_location_and
 
 // Verify guest user?
 
-if (Mobile.verifyElementExist('Home/Guest User/txt_please login', 3)) {
+if (Mobile.verifyElementExist(findTestObject('Home/Guest User/txt_please login'), 1, FailureHandling.OPTIONAL)) {
 	
     Mobile.comment('Teks ditemukan, menjalankan Test Case Tanpa Logout')
 
@@ -94,10 +94,14 @@ if (Mobile.verifyElementExist('Home/Guest User/txt_please login', 3)) {
 	
     Mobile.comment('Teks tidak ditemukan, menjalankan Test Case Logout')
 
-    Mobile.callTestCase(findTestCase('Test Cases/Logout'), [:])
+    Mobile.callTestCase(findTestCase('Test Cases/Side Bar/Positive/Logout'), [:])
 }
 
-Mobile.tap(findTestObject('Home/Guest/txt_scanned info'), 0)
+Mobile.startExistingApplication(GlobalVariable.apkName)
+
+Mobile.tap(findTestObject('Home/Guest User/btn_show scanned info'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Home/Guest User/pop-up_tooltip scanned information'), 1, FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Home/Guest User/btn_open sidebar'), 0)
 
