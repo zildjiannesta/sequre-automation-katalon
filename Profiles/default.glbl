@@ -16,13 +16,28 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Lucius Thornhart'</initValue>
+      <initValue>'Aldi dino'</initValue>
       <name>fullName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'katalon.lucius@yopmail.com'</initValue>
+      <initValue>'Aldi dinofaldi'</initValue>
+      <name>newFullname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'aldiqtrust@yopmail.com'</initValue>
       <name>emailAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'aldidinoqtrust@yopmail.com'</initValue>
+      <name>newEmailaddresss</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'aldiqtrust'</initValue>
+      <name>emailAddress_2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -41,16 +56,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Thornhart Lucius'</initValue>
-      <name>newFullname</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'lucius.katalon@yopmail.com'</initValue>
-      <name>newEmailaddresss</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'Qtrust123!'</initValue>
       <name>newAccpassword</name>
    </GlobalVariableEntity>
@@ -63,5 +68,10 @@
       <description></description>
       <initValue>'1.0.1'</initValue>
       <name>expectedVersion</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>otpCode</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
