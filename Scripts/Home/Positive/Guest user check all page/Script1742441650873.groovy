@@ -49,9 +49,11 @@ if (isInstalled) {
 	
 } else {
 	
-    Mobile.comment('Aplikasi tidak ditemukan, membuka Play Store...')
-
-    Runtime.getRuntime().exec('adb shell am start -a android.intent.action.VIEW -d ' + playStoreURL)
+	Mobile.startApplication(GlobalVariable.appFile, false)
+	
+//    Mobile.comment('Aplikasi tidak ditemukan, membuka Play Store...')
+//
+//    Runtime.getRuntime().exec('adb shell am start -a android.intent.action.VIEW -d ' + playStoreURL)
 }
 
 //           | | |
@@ -60,25 +62,25 @@ if (isInstalled) {
 
 // Allow video/camera permission
 
-if (Mobile.verifyElementExist(findTestObject(''), 0)) {
+if (Mobile.verifyElementExist(findTestObject('Apps Permission/allow_video_and15'), 0)) {
 	
-	Mobile.tap(findTestObject(''), 0)
+	Mobile.tap(findTestObject('Apps Permission/allow_video_and15'), 0)
 	
 } else {
 	
-	Mobile.tap(findTestObject(''), 0)
+	KeywordUtil.markPassed("Element tidak ditemukan, melewati step ini")
 	
 }
 
 // Allow location permission
 
-if (Mobile.verifyElementExist(findTestObject(''), 0)) {
+if (Mobile.verifyElementExist(findTestObject('Apps Permission/allow_location_and15'), 0)) {
 	
-	Mobile.tap(findTestObject(''), 0)
+	Mobile.tap(findTestObject('Apps Permission/allow_video_and15'), 0)
 	
 } else {
 	
-	Mobile.tap(findTestObject(''), 0)
+	KeywordUtil.markPassed("Element tidak ditemukan, melewati step ini")
 	
 }
 
@@ -94,6 +96,8 @@ if (Mobile.verifyElementExist('Home/Guest User/txt_please login', 3)) {
 
     Mobile.callTestCase(findTestCase('Test Cases/Logout'), [:])
 }
+
+Mobile.tap(findTestObject('Home/Guest/txt_scanned info'), 0)
 
 Mobile.tap(findTestObject('Home/Guest User/btn_open sidebar'), 0)
 
