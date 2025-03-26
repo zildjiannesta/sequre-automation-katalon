@@ -18,9 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
-//Mobile.startApplication(GlobalVariable.appFile, false)
 
-Mobile.waitForElementPresent(findTestObject('Home/Guest User/Register button'), 0)
+//Mobile.startApplication(GlobalVariable.appFile, false)
+Mobile.waitForElementPresent(findTestObject('Home/Guest User/Register button'), 2)
 
 Mobile.tap(findTestObject('Home/Guest User/Register button'), 0)
 
@@ -36,7 +36,11 @@ Mobile.setText(findTestObject('Authentication/Register/Confirm password field'),
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Authentication/Register/Terms and Conditions'), 0)
+if (Mobile.verifyElementExist(findTestObject('Authentication/Register/Terms and Conditions'), 2, FailureHandling.OPTIONAL)) {
+    Mobile.tap(findTestObject('Authentication/Register/Terms and Conditions'), 0)
+} else {
+    Mobile.tap(findTestObject('Authentication/Register/cb - TnC'), 0)
+}
 
 Mobile.tap(findTestObject('Authentication/Register/Agree to terms button'), 0)
 
@@ -44,22 +48,30 @@ Mobile.waitForElementPresent(findTestObject('Authentication/Register/Register bu
 
 Mobile.tap(findTestObject('Authentication/Register/Register button'), 0)
 
-Mobile.tap(findTestObject('Authentication/Input OTP/OTP field'), 0)
+WebUI.callTestCase(findTestCase('Authentication/Positive/Get OTP Register'), [:], FailureHandling.STOP_ON_FAILURE)
 
-boolean isOTPEntered = false
-TestObject submitButton = findTestObject('Authentication/Input OTP/Verify OTP button')
+Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
-while (!isOTPEntered) {
-	
-	boolean isEnabled = Mobile.verifyElementAttributeValue(submitButton, 'enabled', 'true', 0, FailureHandling.OPTIONAL	)
-	
-	if (isEnabled) {
-		isOTPEntered = true
-		Mobile.comment("OTP telah diisi, melanjutkan proses..")
-	} else {
-		Mobile.comment("Menunggu pengguna mengisi OTP...")
-	}
-}
+/*not_run: Mobile.tap(findTestObject('Authentication/Input OTP/OTP field'), 0)
+
+not_run: boolean isOTPEntered = false
+
+not_run: TestObject submitButton = findTestObject('Authentication/Input OTP/Verify OTP button')
+
+not_run: while (!(isOTPEntered)) {
+    boolean isEnabled = Mobile.verifyElementAttributeValue(submitButton, 'enabled', 'true', 0, FailureHandling.OPTIONAL)
+
+    if (isEnabled) {
+        isOTPEntered = true
+
+        Mobile.comment('OTP telah diisi, melanjutkan proses..')
+    } else {
+        Mobile.comment('Menunggu pengguna mengisi OTP...')
+    }
+}*/
+Mobile.setText(findTestObject('Object Repository/Authentication/Register/txt - otp'), GlobalVariable.otpCode, 0)
+
+Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Authentication/Input OTP/Verify OTP button'), 0)
 
