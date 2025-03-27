@@ -49,7 +49,7 @@ Mobile.tap(findTestObject('Authentication/Register/Register button'), 0)
 
 WebUI.callTestCase(findTestCase('Authentication/Positive/Get OTP Register'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
+not_run: Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
 /*not_run: Mobile.tap(findTestObject('Authentication/Input OTP/OTP field'), 0)
 
