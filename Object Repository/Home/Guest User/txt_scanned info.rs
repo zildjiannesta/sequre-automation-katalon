@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>Switch Mode</name>
+   <name>txt_scanned info</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -13,23 +13,23 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>65fde90a-db4c-494b-92d0-c01114198587</webElementGuid>
+      <webElementGuid>21e80899-c9e9-43b1-b768-8ffd3a16423a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>63c376bb-01c9-49ac-ba91-397304a2cafb</webElementGuid>
+      <value>0</value>
+      <webElementGuid>4befef6f-fa7d-447a-9fd2-ae3ec138fe48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Switch Mode</value>
-      <webElementGuid>ab181598-10cd-4aca-99af-3341df18902c</webElementGuid>
+      <value>Each scan is stored on your phone, and it's validity cannot be ensured.</value>
+      <webElementGuid>0b7795a9-6eda-40fd-9040-6bcf97019166</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>package</name>
       <type>Main</type>
       <value>id.sequre.pro</value>
-      <webElementGuid>83e034c1-2b00-4f4d-9595-f0b335c7fdab</webElementGuid>
+      <webElementGuid>2cbdd3df-ecc2-409c-8199-e9c0e2bd803f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d10ba8ff-52ce-4c3d-8375-4e26cccfd848</webElementGuid>
+      <webElementGuid>b7341151-6d1f-4556-9c57-18c748268afe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>77d80138-4460-4827-b3ed-cb8670035ebe</webElementGuid>
+      <webElementGuid>1fbebb9c-2f39-40b6-9a1d-1f10190032a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>cf7cd6bb-c61c-409d-ab2f-129466aeae9e</webElementGuid>
+      <webElementGuid>d30b74e3-5674-4de4-8728-9b9418e933cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>7429a128-0510-46fe-a94d-863c1158ea00</webElementGuid>
+      <webElementGuid>33598dab-b798-4b6e-8f78-f4e9a55b9cb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>2bfbf44a-38db-4dd0-ab4c-2559263b81ef</webElementGuid>
+      <webElementGuid>225e3437-7343-48de-ba8a-117f26321402</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3bd47286-9284-460d-b879-6886d5a167ed</webElementGuid>
+      <webElementGuid>be522f84-75ca-464e-8f07-afbd87bafc0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d84c25f5-2f97-4ffe-a4ba-fa9563c3707e</webElementGuid>
+      <webElementGuid>0869b09c-dee3-4014-90e6-b339d92aa504</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -101,7 +101,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>fabb92de-8436-4e8a-9ea9-6fd4f1f2eb98</webElementGuid>
+      <webElementGuid>5ffe6c58-8562-4710-a257-5c61ea79ec9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>aa8a8df3-ad10-47d7-8492-112c84ce86bf</webElementGuid>
+      <webElementGuid>be22b24a-9e05-47fd-a764-fcceba591702</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -117,47 +117,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f5aa0ca2-1559-42c4-b913-9a6372acfc54</webElementGuid>
+      <webElementGuid>c59f75d8-4acf-400d-a311-adddc16cfd23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>485</value>
-      <webElementGuid>c1a1b656-df45-44ba-9901-8d88be241143</webElementGuid>
+      <value>387</value>
+      <webElementGuid>0c9f5d02-e28a-4b45-b743-f520882f417a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>911</value>
-      <webElementGuid>85477435-8281-438a-8dff-831f40051511</webElementGuid>
+      <value>470</value>
+      <webElementGuid>7e95ea11-b2d6-42c2-b857-1d2f4e37e024</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>244</value>
-      <webElementGuid>4268045f-6cc0-45ba-997f-7cab4dc093af</webElementGuid>
+      <value>495</value>
+      <webElementGuid>8c81e863-1ed8-45e9-a37f-c9446b4e87bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>46</value>
-      <webElementGuid>e63e71d3-afb4-47d4-ba4f-637c5e507fbe</webElementGuid>
+      <value>128</value>
+      <webElementGuid>25af0de5-0773-4442-b6df-69245c55e2c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[485,911][729,957]</value>
-      <webElementGuid>1d6f4ff6-79b6-40bb-a21b-bf475744b369</webElementGuid>
+      <value>[387,470][882,598]</value>
+      <webElementGuid>3617887a-60cb-4b52-be0f-c130852824cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -165,59 +165,67 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>49abe5c1-af61-4c19-a553-cda28027a958</webElementGuid>
+      <webElementGuid>1f806eab-8712-4a7b-9f02-127f650169a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/f1.l0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.widget.TextView[1]</value>
-      <webElementGuid>8b2cef24-7cd2-4372-9be4-ef7ea88812e5</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/g1.l0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.widget.TextView[1]</value>
+      <webElementGuid>7b9de1b9-0552-48bc-bb96-be99dae7e7cf</webElementGuid>
    </webElementProperties>
-   <locator>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Switch Mode&quot;).packageName(&quot;id.sequre.pro&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)</locator>
+   <locator>//*[@text[contains(., 'Each scan is stored on your phone, and it's validity')]]</locator>
    <locatorCollection>
       <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Switch Mode&quot;).packageName(&quot;id.sequre.pro&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)</value>
-      </entry>
-      <entry>
-         <key>NAME</key>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
-         <key>ACCESSIBILITY</key>
+         <key>IOS_CLASS_CHAIN</key>
+         <value></value>
       </entry>
       <entry>
          <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value></value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
          <value>android.widget.TextView</value>
       </entry>
       <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Each scan is stored on your phone, and it's validity cannot be ensured.&quot;).packageName(&quot;id.sequre.pro&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)</value>
+      </entry>
+      <entry>
          <key>IOS_PREDICATE_STRING</key>
+         <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/f1.l0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.widget.TextView[1]</value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
-      </entry>
-      <entry>
-         <key>ID</key>
+         <key>NAME</key>
+         <value></value>
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.TextView' and (@text = 'Switch Mode' or . = 'Switch Mode')]</value>
+         <value>//*[@class = 'android.widget.TextView' and (@text = concat(&quot;Each scan is stored on your phone, and it&quot; , &quot;'&quot; , &quot;s validity cannot be ensured.&quot;) or . = concat(&quot;Each scan is stored on your phone, and it&quot; , &quot;'&quot; , &quot;s validity cannot be ensured.&quot;))]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@text[contains(., 'Each scan is stored on your phone, and it's validity')]]</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
+         <value></value>
       </entry>
    </locatorCollection>
-   <locatorStrategy>ANDROID_UI_AUTOMATOR</locatorStrategy>
+   <locatorStrategy>XPATH</locatorStrategy>
    <platform>ANDROID</platform>
 </MobileElementEntity>

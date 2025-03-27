@@ -16,47 +16,94 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.startExistingApplication('id.sequre.pro')
-Mobile.tap(findTestObject('Home/Guest User/Info tooltip button'), 0)
+String appPackage = 'id.sequre.pro'
+String playStoreURL = 'https://play.google.com/store/apps/details?id=' + appPackage
 
-Mobile.delay(5)
+// Check instalasi aplikasi
 
-Mobile.tap(findTestObject('Home/Guest User/Open sidebar button'), 0)
+Process process = Runtime.getRuntime().exec('adb shell pm list packages ' + appPackage)
 
-not_run: GlobalVariable.actualVersion = Mobile.getText(findTestObject('Home/Guest User/Apps Version'), 0)
+BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()))
 
-not_run: CustomKeywords.'customKeywords.verifyAppsVersion.verifyContains'(GlobalVariable.actualVersion, GlobalVariable.expectedVersion)
 
-Mobile.tap(findTestObject('Side Bar/Change language drawer'), 0)
+String line
 
-Mobile.tap(findTestObject('Side Bar/Change language drawer'), 0)
+boolean isInstalled = false
 
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+while ((line = reader.readLine()) != null) {
+	
+    if (line.contains(appPackage)) {
+		
+        isInstalled = true
 
-WebUI.callTestCase(findTestCase('Side Bar/Positive/Change language and theme'), [:], FailureHandling.STOP_ON_FAILURE)
+        break
+    }
+}
 
-Mobile.tap(findTestObject('Side Bar/Change theme drawer'), 0)
+if (isInstalled) {
+	
+    Mobile.startExistingApplication(appPackage)
+	
+} else {
+	
+	Mobile.startApplication(GlobalVariable.appFile, false)
+	
+//    Mobile.comment('Aplikasi tidak ditemukan, membuka Play Store...')
+//
+//    Runtime.getRuntime().exec('adb shell am start -a android.intent.action.VIEW -d ' + playStoreURL)
+}
 
-Mobile.tap(findTestObject('Side Bar/Change theme drawer'), 0)
+//           | | |
+// Test Case | | |
+//           v v v
 
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+// Allow video/camera permission
 
-not_run: Mobile.tap(findTestObject('Home/Guest User/Close taskbar button'), 0)
+if (Mobile.verifyElementExist(findTestObject('Apps Permission/allow_video_and15'), 1, FailureHandling.OPTIONAL)) {
+	
+	Mobile.tap(findTestObject('Apps Permission/allow_video_and15'), 0)
+	
+} else {
+	
+	KeywordUtil.markPassed("Element tidak ditemukan, melewati step ini")
+	
+}
 
-Mobile.pressBack()
+// Allow location permission
 
-Mobile.tap(findTestObject('Home/Guest User/Scan QR button'), 0)
+if (Mobile.verifyElementExist(findTestObject('Apps Permission/allow_location_and15'), 1, FailureHandling.OPTIONAL)) {
+	
+	Mobile.tap(findTestObject('Apps Permission/allow_video_and15'), 0)
+	
+} else {
+	
+	KeywordUtil.markPassed("Element tidak ditemukan, melewati step ini")
+	
+}
 
-Mobile.delay(5)
+// Verify guest user?
 
-Mobile.tap(findTestObject('Scan/Open Camera/Flash button'), 0)
+if (Mobile.verifyElementExist(findTestObject('Home/Guest User/txt_please login'), 1, FailureHandling.OPTIONAL)) {
+	
+    Mobile.comment('Teks ditemukan, menjalankan Test Case Tanpa Logout')
 
-Mobile.tap(findTestObject('Scan/Open Camera/Flash button'), 0)
+} else {
+	
+    Mobile.comment('Teks tidak ditemukan, menjalankan Test Case Logout')
 
-Mobile.tap(findTestObject('Scan/Open Camera/Back button'), 0)
+    Mobile.callTestCase(findTestCase('Test Cases/Side Bar/Positive/Logout'), [:])
+}
 
-Mobile.delay(5)
+Mobile.startExistingApplication(GlobalVariable.apkName)
+
+Mobile.tap(findTestObject('Home/Guest User/btn_show scanned info'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Home/Guest User/pop-up_tooltip scanned information'), 1, FailureHandling.OPTIONAL)
+
+Mobile.tap(findTestObject('Home/Guest User/btn_open sidebar'), 0)
+
+
 
