@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.android.chrome')
 
-Mobile.tap(findTestObject('Authentication/Register/OTP Register/btn - homeChrome'), 0, FailureHandling.OPTIONAL)
+Mobile.tap(findTestObject('Authentication/Register/OTP Register/btn - homeChrome'), 2, FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Object Repository/Authentication/Register/OTP Register/txt - Telusuri atau ketik alamat web'), 
     0)
@@ -45,7 +45,7 @@ GlobalVariable.otpCode = Mobile.getText(findTestObject('Object Repository/Authen
 
 println(GlobalVariable.otpCode)
 
-Mobile.tap(findTestObject('Authentication/Register/OTP Register/btn - homeChrome'), 0, FailureHandling.OPTIONAL)
+Mobile.tap(findTestObject('Authentication/Register/OTP Register/btn - homeChrome'), 2, FailureHandling.OPTIONAL)
 
 Mobile.closeApplication()
 
