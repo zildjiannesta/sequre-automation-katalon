@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.apkName, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Home/Guest User/Register button'), 2)
+Mobile.waitForElementPresent(findTestObject('Home/Guest User/Register Button'), 2)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Home/Guest User/Register Button'), 0)
 
 Mobile.setText(findTestObject('Authentication/Register/Full name field'), GlobalVariable.fullName, 0)
 
@@ -43,9 +43,9 @@ if (Mobile.verifyElementExist(findTestObject('Authentication/Register/Terms and 
 
 Mobile.tap(findTestObject('Authentication/Register/Agree to terms button'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Authentication/Register/Register button'), 0)
+Mobile.waitForElementPresent(findTestObject('Authentication/Register/Submit Register Button'), 0)
 
-Mobile.tap(findTestObject('Authentication/Register/Register button'), 0)
+Mobile.tap(findTestObject('Authentication/Register/Submit Register Button'), 0)
 
 WebUI.callTestCase(findTestCase('Authentication/Positive/Get OTP Register'), [:], FailureHandling.STOP_ON_FAILURE)
 

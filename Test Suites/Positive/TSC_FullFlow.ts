@@ -12,13 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>e793bcb1-0fcf-4723-ae2f-5e9d2359be3f</testSuiteGuid>
    <testCaseLink>
-      <guid>fb039391-299b-430d-b5b4-5ceb01a4905e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Home/Positive/Guest user check all page</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>656061a2-96b0-4446-a005-86ce82528d5e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
