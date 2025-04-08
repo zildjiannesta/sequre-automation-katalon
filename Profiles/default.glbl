@@ -16,27 +16,27 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Rayhan Han'</initValue>
+      <initValue>'Denis Ananta'</initValue>
       <name>fullName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Rayhan Hannan'</initValue>
+      <initValue>'Denis Anantara'</initValue>
       <name>newFullname</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'rayhanqtrust@yopmail.com'</initValue>
+      <initValue>'frizchaqtrust@yopmail.com'</initValue>
       <name>emailAddress</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'rayqtrust@yopmail.com'</initValue>
+      <initValue>'frizqtrust@yopmail.com'</initValue>
       <name>newEmailaddresss</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'rayhanqtrust'</initValue>
+      <initValue>'frizchaqtrust'</initValue>
       <name>emailAddress_2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
