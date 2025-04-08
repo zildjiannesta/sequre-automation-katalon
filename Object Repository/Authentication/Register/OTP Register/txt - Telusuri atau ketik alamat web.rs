@@ -3,7 +3,7 @@
    <description></description>
    <name>txt - Telusuri atau ketik alamat web</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>16ac3ff0-cdb0-4845-bedd-c2cff84759df</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -13,7 +13,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.EditText</value>
-      <webElementGuid>cc1b744b-cc7a-4355-948c-e91fa282bae7</webElementGuid>
+      <webElementGuid>6c5c696e-9243-4983-a513-263d0aa1305e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>e423133f-604c-4f3d-a586-8c213f80b367</webElementGuid>
+      <webElementGuid>c0c579b1-9a69-476a-a944-3cb5b50989a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Telusuri atau ketik alamat web</value>
-      <webElementGuid>0a04c0d3-815d-4a65-83ce-50eb3c44593d</webElementGuid>
+      <webElementGuid>3aade726-71bc-4960-9d03-369487684751</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>resource-id</name>
       <type>Main</type>
       <value>com.android.chrome:id/search_box_text</value>
-      <webElementGuid>631cb432-b807-4653-a927-5c6bf17821dc</webElementGuid>
+      <webElementGuid>564599ab-5246-4c05-b1d7-c3cb5580d030</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.android.chrome</value>
-      <webElementGuid>f7b3e4f7-f925-4d79-85cf-7fff83d8223a</webElementGuid>
+      <webElementGuid>4f4f7779-2d82-40d2-95d5-2dee0cd069d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9d7d1dd6-3193-4be1-bdeb-6190b302fc20</webElementGuid>
+      <webElementGuid>2d8d5965-19eb-488f-9c4f-b383fef33d5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b03cdecc-52db-46b2-8d5e-5081d1b63897</webElementGuid>
+      <webElementGuid>a752be97-f849-4016-822e-0093e527e569</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>49ae8834-206a-455f-b664-850c8592f134</webElementGuid>
+      <webElementGuid>c644282f-c3df-41f7-a275-ce5721a3fa0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c4b7fc7a-44c6-4a9b-8649-b804a9fc5e7a</webElementGuid>
+      <webElementGuid>e01d14e9-eaa2-42f3-8289-ed72f724b07a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7a1acf35-8694-4a8e-9a8b-1b62a6972f80</webElementGuid>
+      <webElementGuid>f4ccc928-6b86-4864-81c9-1f1f3d01a023</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>328f6489-cb27-4f65-8b8e-061ee8ea3224</webElementGuid>
+      <webElementGuid>48f9b195-99d1-48cb-a758-06a854f7e9d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3f729cad-1bc6-4fd3-8ba8-3774849baefe</webElementGuid>
+      <webElementGuid>8a998729-368e-41d2-b115-66731bc2ed8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>1b4064dd-cbef-45de-9065-d0c5652dab80</webElementGuid>
+      <webElementGuid>b3f9fef4-0524-45db-9788-e3503a0dccc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f85ce553-c864-46e8-bb3d-e7d0920316fd</webElementGuid>
+      <webElementGuid>4cc9bcd1-6744-44d5-b1aa-9fe21b51cdbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c34c65e7-32f8-483f-9f31-6f30eed392cf</webElementGuid>
+      <webElementGuid>e5487d62-0909-4d57-bed4-2aacdbb5b986</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>x</name>
       <type>Main</type>
       <value>49</value>
-      <webElementGuid>ff705751-208d-4f79-8e69-1d6756fea76c</webElementGuid>
+      <webElementGuid>2bd0cfa4-c3bb-45b5-b673-e156a5634440</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>y</name>
       <type>Main</type>
       <value>193</value>
-      <webElementGuid>fbb0f5b9-7ecb-46ee-b39e-71e6339cdbfe</webElementGuid>
+      <webElementGuid>2419afa4-fae1-4d71-a588-bd3f68ce7f39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>width</name>
       <type>Main</type>
       <value>513</value>
-      <webElementGuid>3fccd268-c680-48b5-8dd0-9eeb38456d77</webElementGuid>
+      <webElementGuid>8b63cc6b-84e2-46a9-a4af-71547a793179</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>height</name>
       <type>Main</type>
       <value>84</value>
-      <webElementGuid>9dde0143-f4ff-46f8-938f-dff59260e9eb</webElementGuid>
+      <webElementGuid>b2888948-29ab-460f-8a36-5749f3fa2885</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -165,7 +165,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[49,193][562,277]</value>
-      <webElementGuid>49bcaca3-e479-46b6-b69e-174ee312978a</webElementGuid>
+      <webElementGuid>f24ee973-ef76-4653-920d-e26a7a1d2f9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,7 +173,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a760a338-59a6-4e89-92a9-d2dc16461178</webElementGuid>
+      <webElementGuid>54672281-1e6c-406b-8a44-fabdfbd85d72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -181,7 +181,7 @@
       <name>hint</name>
       <type>Main</type>
       <value>Telusuri atau ketik alamat web</value>
-      <webElementGuid>7ef63b58-2dc3-4c7b-be94-d4da85c11df9</webElementGuid>
+      <webElementGuid>32b53d57-1687-4595-9ccb-a20fcfb5435d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -189,20 +189,24 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.EditText[1]</value>
-      <webElementGuid>0aaba2a6-0ff9-4ebf-b1fc-4a2d47ad3ffb</webElementGuid>
+      <webElementGuid>942fb6b9-7d4d-4a83-bd7f-46708b0aafc9</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.EditText' and (@text = 'Telusuri atau ketik alamat web' or . = 'Telusuri atau ketik alamat web') and @resource-id = 'com.android.chrome:id/search_box_text']</locator>
+   <locator>//*[@class = 'android.widget.EditText' and (@text = 'Telusuri atau ketik alamat web' or . = 'Telusuri atau ketik alamat web' or @text = 'Search or type URL' or . = 'Search or type URL') and @resource-id = 'com.android.chrome:id/search_box_text']</locator>
    <locatorCollection>
       <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value></value>
+         <key>CLASS_NAME</key>
+         <value>android.widget.EditText</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**[`enabled == 1 AND hint == 'Telusuri atau ketik alamat web'`]</value>
       </entry>
       <entry>
-         <key>NAME</key>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.EditText&quot;).text(&quot;Telusuri atau ketik alamat web&quot;).resourceId(&quot;com.android.chrome:id/search_box_text&quot;).packageName(&quot;com.android.chrome&quot;).enabled(true).clickable(true).longClickable(true).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)</value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
          <value></value>
       </entry>
       <entry>
@@ -210,36 +214,32 @@
          <value></value>
       </entry>
       <entry>
-         <key>IOS_CLASS_CHAIN</key>
+         <key>XPATH</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.EditText[1]</value>
+      </entry>
+      <entry>
+         <key>NAME</key>
          <value></value>
       </entry>
       <entry>
-         <key>ID</key>
-         <value>com.android.chrome:id/search_box_text</value>
+         <key>ATTRIBUTES</key>
+         <value>//*[@class = 'android.widget.EditText' and (@text = 'Telusuri atau ketik alamat web' or . = 'Telusuri atau ketik alamat web' or @text = 'Search or type URL' or . = 'Search or type URL') and @resource-id = 'com.android.chrome:id/search_box_text']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.EditText[1]</value>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>enabled == 1 AND hint == 'Telusuri atau ketik alamat web'</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
          <value></value>
       </entry>
       <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.EditText&quot;).text(&quot;Telusuri atau ketik alamat web&quot;).resourceId(&quot;com.android.chrome:id/search_box_text&quot;).packageName(&quot;com.android.chrome&quot;).enabled(true).clickable(true).longClickable(true).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)</value>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.EditText' and (@text = 'Telusuri atau ketik alamat web' or . = 'Telusuri atau ketik alamat web') and @resource-id = 'com.android.chrome:id/search_box_text']</value>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value>android.widget.EditText</value>
-      </entry>
-      <entry>
-         <key>CUSTOM</key>
-         <value></value>
+         <key>ID</key>
+         <value>com.android.chrome:id/search_box_text</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

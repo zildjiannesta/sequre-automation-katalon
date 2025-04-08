@@ -9,9 +9,9 @@
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>10.1.1</modifiedVersion>
+   <modifiedVersion>10.0.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\zildjian\Katalon Studio\new-sequre-katalon\sequre-automation-katalon\My First Mobile Project.prj</projectFileLocation>
+   <projectFileLocation>D:\Katalon Web\Qtrust-Mobile\sequre-automation-katalon\My First Mobile Project.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
