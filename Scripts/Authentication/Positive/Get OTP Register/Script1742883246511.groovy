@@ -38,7 +38,9 @@ Mobile.setText(findTestObject('Object Repository/Authentication/Register/OTP Reg
 
 Mobile.tap(findTestObject('Object Repository/Authentication/Register/OTP Register/btn - get email'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Authentication/Register/OTP Register/btn - list email'), 0)
+Mobile.tap(findTestObject('Object Repository/Authentication/Register/OTP Register/btn - list email'), 2, FailureHandling.OPTIONAL)
+
+Mobile.tap(findTestObject('Authentication/Register/OTP Register/btn - list email (2)'), 2, FailureHandling.OPTIONAL)
 
 GlobalVariable.otpCode = Mobile.getText(findTestObject('Object Repository/Authentication/Register/OTP Register/txt - OTP code'), 
     0)
