@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
 
 Mobile.startExistingApplication('com.android.chrome')
 
@@ -42,10 +43,18 @@ Mobile.tap(findTestObject('Object Repository/Authentication/Register/OTP Registe
 
 Mobile.tap(findTestObject('Authentication/Register/OTP Register/btn - list email (2)'), 2, FailureHandling.OPTIONAL)
 
-GlobalVariable.otpCode = Mobile.getText(findTestObject('Object Repository/Authentication/Register/OTP Register/txt - OTP code'), 
-    0)
-
-println(GlobalVariable.otpCode)
+if (Mobile.verifyElementExist(findTestObject('Object Repository/Authentication/Register/OTP Register/txt - OTP code'), 2, FailureHandling.OPTIONAL)) {
+	
+    GlobalVariable.otpCode = Mobile.getText(findTestObject('Object Repository/Authentication/Register/OTP Register/txt - OTP code'), 0)
+	
+	KeywordUtil.logInfo('OTP = ' + GlobalVariable.otpCode)
+	
+} else {
+	
+    GlobalVariable.otpCode = Mobile.getText(findTestObject('Object Repository/Authentication/Register/OTP Register/txt - OTP code android 15'), 0)
+	
+	KeywordUtil.logInfo('OTP = ' + GlobalVariable.otpCode)
+}
 
 Mobile.tap(findTestObject('Authentication/Register/OTP Register/btn - homeChrome'), 2, FailureHandling.OPTIONAL)
 

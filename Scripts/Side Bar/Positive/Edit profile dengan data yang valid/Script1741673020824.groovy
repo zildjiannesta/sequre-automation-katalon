@@ -23,17 +23,24 @@ Mobile.tap(findTestObject('Side Bar/Edit Profile/Edit profile button'), 0)
 
 Mobile.tap(findTestObject('Side Bar/Edit Profile/Edit profile button'), 0)
 
-Mobile.tap(findTestObject('Side Bar/Edit Profile/Image picker'), 0)
+if (Mobile.verifyElementExist(findTestObject('Side Bar/Edit Profile/Pick Image On Gallery - android 15'), 0, FailureHandling.OPTIONAL)) {
+	
+	Mobile.tap(findTestObject('Side Bar/Edit Profile/Pick Image On Gallery - android 15'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+} else {
+	
+	Mobile.tap(findTestObject('Side Bar/Edit Profile/Pick Image On Gallery - Android 11'), 0, FailureHandling.OPTIONAL)
+	
+}
 
-//Mobile.setText(findTestObject('Side Bar/Edit Profile/Name field'), GlobalVariable.newFullname, 0)
+Mobile.waitForElementPresent(findTestObject('Side Bar/Edit Profile/Field Username'), 0)
 
-Mobile.setText(findTestObject('Side Bar/Edit Profile/Email field'), GlobalVariable.newEmailaddresss, 0)
+Mobile.setText(findTestObject('Side Bar/Edit Profile/Field Username'), GlobalVariable.newFullname, 0)
+
+Mobile.setText(findTestObject('Side Bar/Edit Profile/Field Email Address'), GlobalVariable.newEmailaddresss, 0)
 
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Side Bar/Edit Profile/Save profile change button'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
+Mobile.tap(findTestObject('Side Bar/Edit Profile/Okay - Profile Success Updated'), 0)
